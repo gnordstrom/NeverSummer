@@ -1,0 +1,120 @@
+/*--------------------------------------------------
+	15. Footer
+---------------------------------------------------*/
+
+footer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+#footer-content {
+    background: none repeat scroll 0 0 #eeeeee;
+}
+
+.footer-white {
+    background-color:#fff;
+    width: 100%;
+    height:100%;
+}
+
+#footer-content .footer-white  .container {
+    padding-top:10px;
+}
+
+#footer-content .container {
+    padding-top:100px;
+    padding-bottom:80px;
+    display:table;
+}
+
+ul.text-socials {
+    margin:0;
+}
+
+ul.text-socials li {
+    list-style:none;
+    display:inline-block;
+    margin:0 20px 40px ;
+    text-transform:uppercase;
+}
+
+ul.text-socials li a {
+    color:#000;
+    border-bottom: rgba(0,0,0,0) 2px solid;
+    padding-bottom: 5px;
+    letter-spacing:2px;
+}
+
+ul.text-socials li a:hover {
+    border-bottom: #e11f26 2px solid;
+    
+}
+
+ul.footer-socials {
+    margin-left:0;
+    margin-bottom:30px;
+}
+
+ul.footer-socials li {
+    display:inline-block;
+    margin-right:15px;
+    text-align:center;
+}
+
+ul.footer-socials li a {
+    border-radius:50px;
+    background-color:#999;
+    line-height:40px;
+    color:#fff;
+    width:40px;
+    height:40px;
+    display:block;
+    font-size:16px;		
+}
+
+ul.footer-socials li a:hover {
+    background-color:#000
+}
+
+.copyright-minimal {
+    float:left;
+}
+
+.text-socials-minimal {
+    margin:0;
+    display:block;
+    float:right;
+}
+
+.text-socials-minimal li {
+    display:inline-block;
+    font-family: 'Titillium Web' ;
+    font-weight:400;
+    font-size:14px;
+    letter-spacing:1px;
+    margin-right:5px;
+}
+
+.text-socials-minimal li:last-child {
+    margin-right:0;
+}
+
+.text-socials-minimal li:after {
+    content:","
+}
+
+.text-socials-minimal li:first-child:after, .text-socials-minimal li:last-child:after {
+    content:""
+}
+
+.text-socials-minimal li a {
+    color:#999;
+    text-transform:uppercase;
+    line-height:25px;
+}
+
+.text-socials-minimal li a:hover {
+    color: #e11f26;
+}
