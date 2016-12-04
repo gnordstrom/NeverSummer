@@ -8,6 +8,11 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer.component';
 import { HeaderComponent } from './header.component';
 import { HomeComponent } from './home/home.component';
+import { SnowboardsComponent } from './snowboards/snowboards.component';
+import { LongboardsComponent } from './longboards/longboards.component';
+import { ApparelComponent } from './apparel/apparel.component';
+import { CalendarComponent } from './calendar/calendar.component';
+import { CompanyComponent } from './company/company.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +20,11 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     HeaderComponent,
     HomeComponent,
+    SnowboardsComponent,
+    LongboardsComponent,
+    ApparelComponent,
+    CalendarComponent,
+    CompanyComponent,
   ],
   imports: [
     BrowserModule,
