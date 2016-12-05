@@ -20,6 +20,7 @@ import { LongboardsTechComponent } from './longboards/longboards-tech/longboards
 import { LongboardsTeamComponent } from './longboards/longboards-team/longboards-team.component';
 import { CompanyContactComponent } from './company/company-contact/company-contact.component';
 import { CompanyMotoComponent } from './company/company-moto/company-moto.component';
+import { CompanyWarrantyComponent } from './company/company-warranty/company-warranty.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { CompanyMotoComponent } from './company/company-moto/company-moto.compon
     LongboardsTeamComponent,
     CompanyContactComponent,
     CompanyMotoComponent,
+    CompanyWarrantyComponent,
   ],
   imports: [
     BrowserModule,
