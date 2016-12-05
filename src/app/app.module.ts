@@ -13,6 +13,10 @@ import { LongboardsComponent } from './longboards/longboards.component';
 import { ApparelComponent } from './apparel/apparel.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { CompanyComponent } from './company/company.component';
+import { SnowboardVideosComponent } from './snowboards/snowboard-videos/snowboard-videos.component';
+import { SnowboardsVideosComponent } from './snowboards/snowboards-videos/snowboards-videos.component';
+import { SnowboardsTechComponent } from './snowboards/snowboards-tech/snowboards-tech.component';
+import { SnowboardsTeamComponent } from './snowboards/snowboards-team/snowboards-team.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +29,10 @@ import { CompanyComponent } from './company/company.component';
     ApparelComponent,
     CalendarComponent,
     CompanyComponent,
+    SnowboardVideosComponent,
+    SnowboardsVideosComponent,
+    SnowboardsTechComponent,
+    SnowboardsTeamComponent,
   ],
   imports: [
     BrowserModule,
