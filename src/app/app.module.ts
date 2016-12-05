@@ -18,6 +18,8 @@ import { SnowboardsTeamComponent } from './snowboards/snowboards-team/snowboards
 import { LongboardsVideosComponent } from './longboards/longboards-videos/longboards-videos.component';
 import { LongboardsTechComponent } from './longboards/longboards-tech/longboards-tech.component';
 import { LongboardsTeamComponent } from './longboards/longboards-team/longboards-team.component';
+import { ContactComponent } from './company/contact/contact.component';
+import { CompanyContactComponent } from './company/company-contact/company-contact.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { LongboardsTeamComponent } from './longboards/longboards-team/longboards
     LongboardsVideosComponent,
     LongboardsTechComponent,
     LongboardsTeamComponent,
+    ContactComponent,
+    CompanyContactComponent,
   ],
   imports: [
     BrowserModule,
