@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ApparelComponent } from './apparel/apparel.component';
 import { CompanyComponent } from './company/company.component';
 import { CompanyContactComponent } from './company/company-contact/company-contact.component';
+import { CompanyMotoComponent } from './company/company-moto/company-moto.component';
 import { HomeComponent } from './home/home.component';
 import { LongboardsComponent } from './longboards/longboards.component';
 import { LongboardsVideosComponent } from './longboards/longboards-videos/longboards-videos.component';
@@ -20,6 +21,7 @@ const APP_ROUTES: Routes = [
     { path: 'apparel', component: ApparelComponent },
     { path: 'company', component: CompanyComponent },
     { path: 'company/contact', component: CompanyContactComponent },
+    { path: 'company/moto', component: CompanyMotoComponent },
     { path: 'longboards', component: LongboardsComponent },
     { path: 'longboards/videos', component: LongboardsVideosComponent },
     { path: 'longboards/tech', component: LongboardsTechComponent },
