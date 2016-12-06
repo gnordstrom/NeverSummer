@@ -24,6 +24,7 @@ import { CompanyWarrantyComponent } from './company/company-warranty/company-war
 import { CompanyNewsComponent } from './company/company-news/company-news.component';
 import { CompanyDealersComponent } from './company/company-dealers/company-dealers.component';
 import { CompanyInternationalDealersComponent } from './company/company-international-dealers/company-international-dealers.component';
+import { CompanyCalendarComponent } from './company/company-calendar/company-calendar.component';
 
 @NgModule({
   declarations: [
@@ -47,6 +48,7 @@ import { CompanyInternationalDealersComponent } from './company/company-internat
     CompanyNewsComponent,
     CompanyDealersComponent,
     CompanyInternationalDealersComponent,
+    CompanyCalendarComponent,
   ],
   imports: [
     BrowserModule,

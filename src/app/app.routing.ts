@@ -4,6 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { ApparelComponent } from './apparel/apparel.component';
 import { CompanyComponent } from './company/company.component';
+import { CompanyCalendarComponent } from './company/company-calendar/company-calendar.component';
 import { CompanyContactComponent } from './company/company-contact/company-contact.component';
 import { CompanyDealersComponent } from './company/company-dealers/company-dealers.component';
 import { CompanyInternationalDealersComponent } from './company/company-international-dealers/company-international-dealers.component';
@@ -24,6 +25,7 @@ const APP_ROUTES: Routes = [
     { path: '', component: HomeComponent },
     { path: 'apparel', component: ApparelComponent },
     { path: 'company', component: CompanyComponent },
+    { path: 'company/calendar', component: CompanyCalendarComponent },
     { path: 'company/contact', component: CompanyContactComponent },
     { path: 'company/dealers', component: CompanyDealersComponent },
     { path: 'company/international-dealers', component: CompanyInternationalDealersComponent },
