@@ -1,13 +1,9 @@
-#content {
-	background-color:#f8f8f8;
-	// height: 300px;
-}
-#top-img {
-	width: 100%;
-	height: 100%px;
-	// background-color: black;
+.top-parallax {
+    height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-#top-img img {
-    margin-top: 80px;
-}

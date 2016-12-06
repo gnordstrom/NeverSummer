@@ -1,0 +1,29 @@
+#main {
+    margin-top: 200px;
+}
+
+.warranty-button {
+    color:#fff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    margin-top:5px;
+    margin-right:5px;
+    display:inline-block;
+    text-transform:uppercase;
+    padding:15px 30px;
+    line-height:20px;
+    cursor:pointer;
+    border:none;
+    transition:all 0.3s ease 0s;
+    -moz-transition:all 0.3s ease 0s;
+    -webkit-transition:all 0.3s ease 0s;
+    -o-transition:all 0.3s ease 0s;
+    text-align:center;
+    background-color:#e11f26;
+}
+
+.warranty-button:hover {
+    background-color: #000;
+    color: #fff;
+}
