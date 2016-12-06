@@ -6,6 +6,7 @@ import { ApparelComponent } from './apparel/apparel.component';
 import { CompanyComponent } from './company/company.component';
 import { CompanyContactComponent } from './company/company-contact/company-contact.component';
 import { CompanyDealersComponent } from './company/company-dealers/company-dealers.component';
+import { CompanyInternationalDealersComponent } from './company/company-international-dealers/company-international-dealers.component';
 import { CompanyMotoComponent } from './company/company-moto/company-moto.component';
 import { CompanyNewsComponent } from './company/company-news/company-news.component';
 import { CompanyWarrantyComponent } from './company/company-warranty/company-warranty.component';
@@ -25,6 +26,7 @@ const APP_ROUTES: Routes = [
     { path: 'company', component: CompanyComponent },
     { path: 'company/contact', component: CompanyContactComponent },
     { path: 'company/dealers', component: CompanyDealersComponent },
+    { path: 'company/international-dealers', component: CompanyInternationalDealersComponent },
     { path: 'company/moto', component: CompanyMotoComponent },
     { path: 'company/news', component: CompanyNewsComponent },
     { path: 'company/warranty', component: CompanyWarrantyComponent },

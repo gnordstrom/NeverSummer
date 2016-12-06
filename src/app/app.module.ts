@@ -23,6 +23,7 @@ import { CompanyMotoComponent } from './company/company-moto/company-moto.compon
 import { CompanyWarrantyComponent } from './company/company-warranty/company-warranty.component';
 import { CompanyNewsComponent } from './company/company-news/company-news.component';
 import { CompanyDealersComponent } from './company/company-dealers/company-dealers.component';
+import { CompanyInternationalDealersComponent } from './company/company-international-dealers/company-international-dealers.component';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { CompanyDealersComponent } from './company/company-dealers/company-deale
     CompanyWarrantyComponent,
     CompanyNewsComponent,
     CompanyDealersComponent,
+    CompanyInternationalDealersComponent,
   ],
   imports: [
     BrowserModule,
