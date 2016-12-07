@@ -25,6 +25,12 @@ import { CompanyNewsComponent } from './company/company-news/company-news.compon
 import { CompanyDealersComponent } from './company/company-dealers/company-dealers.component';
 import { CompanyInternationalDealersComponent } from './company/company-international-dealers/company-international-dealers.component';
 import { CompanyCalendarComponent } from './company/company-calendar/company-calendar.component';
+import { ApparelShirtsComponent } from './apparel/apparel-shirts/apparel-shirts.component';
+
+import { HttpService } from './apparel/http.service';
+import { ApparelHoodiesComponent } from './apparel/apparel-hoodies/apparel-hoodies.component';
+import { ApparelHatsComponent } from './apparel/apparel-hats/apparel-hats.component';
+import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/apparel-accessories.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +55,10 @@ import { CompanyCalendarComponent } from './company/company-calendar/company-cal
     CompanyDealersComponent,
     CompanyInternationalDealersComponent,
     CompanyCalendarComponent,
+    ApparelShirtsComponent,
+    ApparelHoodiesComponent,
+    ApparelHatsComponent,
+    ApparelAccessoriesComponent,
   ],
   imports: [
     BrowserModule,
@@ -56,7 +66,7 @@ import { CompanyCalendarComponent } from './company/company-calendar/company-cal
     HttpModule,
     routing
   ],
-  providers: [],
+  providers: [HttpService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
