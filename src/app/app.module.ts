@@ -35,6 +35,15 @@ import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.compon
 import { ApparelWomensComponent } from './apparel/apparel-womens/apparel-womens.component';
 import { ApparelKidsComponent } from './apparel/apparel-kids/apparel-kids.component';
 import { LongboardsBoardAvalancheComponent } from './longboards/longboards-board-avalanche/longboards-board-avalanche.component';
+import { LongboardsBoardClutchComponent } from './longboards/longboards-board-clutch/longboards-board-clutch.component';
+import { LongboardsBoardCovertComponent } from './longboards/longboards-board-covert/longboards-board-covert.component';
+import { LongboardsBoardDeviantComponent } from './longboards/longboards-board-deviant/longboards-board-deviant.component';
+import { LongboardsBoardDimeComponent } from './longboards/longboards-board-dime/longboards-board-dime.component';
+import { LongboardsBoardElJefeComponent } from './longboards/longboards-board-el-jefe/longboards-board-el-jefe.component';
+import { LongboardsBoardHeistComponent } from './longboards/longboards-board-heist/longboards-board-heist.component';
+import { LongboardsBoardReaperComponent } from './longboards/longboards-board-reaper/longboards-board-reaper.component';
+import { LongboardsBoardSuperfreakComponent } from './longboards/longboards-board-superfreak/longboards-board-superfreak.component';
+import { LongboardsBoardWingmanComponent } from './longboards/longboards-board-wingman/longboards-board-wingman.component';
 
 @NgModule({
   declarations: [
@@ -67,6 +76,15 @@ import { LongboardsBoardAvalancheComponent } from './longboards/longboards-board
     ApparelWomensComponent,
     ApparelKidsComponent,
     LongboardsBoardAvalancheComponent,
+    LongboardsBoardClutchComponent,
+    LongboardsBoardCovertComponent,
+    LongboardsBoardDeviantComponent,
+    LongboardsBoardDimeComponent,
+    LongboardsBoardElJefeComponent,
+    LongboardsBoardHeistComponent,
+    LongboardsBoardReaperComponent,
+    LongboardsBoardSuperfreakComponent,
+    LongboardsBoardWingmanComponent,
   ],
   imports: [
     BrowserModule,
