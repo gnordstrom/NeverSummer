@@ -34,6 +34,7 @@ import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/appar
 import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.component';
 import { ApparelWomensComponent } from './apparel/apparel-womens/apparel-womens.component';
 import { ApparelKidsComponent } from './apparel/apparel-kids/apparel-kids.component';
+import { LongboardsBoardAvalancheComponent } from './longboards/longboards-board-avalanche/longboards-board-avalanche.component';
 
 @NgModule({
   declarations: [
@@ -65,6 +66,7 @@ import { ApparelKidsComponent } from './apparel/apparel-kids/apparel-kids.compon
     ApparelMensComponent,
     ApparelWomensComponent,
     ApparelKidsComponent,
+    LongboardsBoardAvalancheComponent,
   ],
   imports: [
     BrowserModule,

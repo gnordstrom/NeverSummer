@@ -1,3 +1,4 @@
+import { LongboardsBoardAvalancheComponent } from './longboards/longboards-board-avalanche/longboards-board-avalanche.component';
 import { ApparelKidsComponent } from './apparel/apparel-kids/apparel-kids.component';
 import { ApparelWomensComponent } from './apparel/apparel-womens/apparel-womens.component';
 import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.component';
@@ -47,6 +48,7 @@ const APP_ROUTES: Routes = [
     { path: 'company/news', component: CompanyNewsComponent },
     { path: 'company/warranty', component: CompanyWarrantyComponent },
     { path: 'longboards', component: LongboardsComponent },
+    { path: 'longboards/board/avalanche', component: LongboardsBoardAvalancheComponent },
     { path: 'longboards/videos', component: LongboardsVideosComponent },
     { path: 'longboards/tech', component: LongboardsTechComponent },
     { path: 'longboards/team', component: LongboardsTeamComponent },
