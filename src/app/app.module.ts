@@ -31,6 +31,7 @@ import { HttpService } from './apparel/http.service';
 import { ApparelHoodiesComponent } from './apparel/apparel-hoodies/apparel-hoodies.component';
 import { ApparelHatsComponent } from './apparel/apparel-hats/apparel-hats.component';
 import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/apparel-accessories.component';
+import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.component';
 
 @NgModule({
   declarations: [
@@ -59,6 +60,7 @@ import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/appar
     ApparelHoodiesComponent,
     ApparelHatsComponent,
     ApparelAccessoriesComponent,
+    ApparelMensComponent,
   ],
   imports: [
     BrowserModule,

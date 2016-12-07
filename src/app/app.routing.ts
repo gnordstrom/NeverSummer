@@ -1,3 +1,4 @@
+import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.component';
 import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/apparel-accessories.component';
 import { ApparelHatsComponent } from './apparel/apparel-hats/apparel-hats.component';
 import { ApparelHoodiesComponent } from './apparel/apparel-hoodies/apparel-hoodies.component';
@@ -32,6 +33,7 @@ const APP_ROUTES: Routes = [
     { path: 'apparel/hoodies', component: ApparelHoodiesComponent },
     { path: 'apparel/hats', component: ApparelHatsComponent },
     { path: 'apparel/accessories', component: ApparelAccessoriesComponent },
+    { path: 'apparel/mens', component: ApparelMensComponent },
     { path: 'company', component: CompanyComponent },
     { path: 'company/calendar', component: CompanyCalendarComponent },
     { path: 'company/contact', component: CompanyContactComponent },

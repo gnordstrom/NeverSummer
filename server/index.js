@@ -66,6 +66,17 @@ app.get('/apparel/items/accessories', function(req, res, next) {
   });
 })
 
+// Mens
+app.get('/apparel/items/mens', function(req, res, next) {
+  db.get_mens(function(err, mens) {
+    if (err) {
+      res.status(500).json(err);
+    } else {
+      res.json(mens)
+    }
+  });
+})
+
 
 app.listen(8080, function() {
     console.log('Connected on port 8080');

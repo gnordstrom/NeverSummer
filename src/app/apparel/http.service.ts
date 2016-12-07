@@ -24,6 +24,10 @@ export class HttpService {
     return this.http.get('http://localhost:8080/apparel/items/accessories')
       .map(res => res.json());
   }
+  getMens() {
+    return this.http.get('http://localhost:8080/apparel/items/mens')
+      .map(res => res.json());
+  }
 
 //   getWomens() {
 //     return this.http.get('https://spacex-d2f2d.firebaseio.com/womens.json')
