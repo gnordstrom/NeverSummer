@@ -1,3 +1,8 @@
+import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.component';
+import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/apparel-accessories.component';
+import { ApparelHatsComponent } from './apparel/apparel-hats/apparel-hats.component';
+import { ApparelHoodiesComponent } from './apparel/apparel-hoodies/apparel-hoodies.component';
+import { ApparelShirtsComponent } from './apparel/apparel-shirts/apparel-shirts.component';
 // FOR ROUTING, check Section 22 video 237, 238 how to setup child routes and lazy loading
 
 import { RouterModule, Routes } from '@angular/router';
@@ -24,6 +29,11 @@ import { SnowboardsTeamComponent } from './snowboards/snowboards-team/snowboards
 const APP_ROUTES: Routes = [
     { path: '', component: HomeComponent },
     { path: 'apparel', component: ApparelComponent },
+    { path: 'apparel/shirts', component: ApparelShirtsComponent },
+    { path: 'apparel/hoodies', component: ApparelHoodiesComponent },
+    { path: 'apparel/hats', component: ApparelHatsComponent },
+    { path: 'apparel/accessories', component: ApparelAccessoriesComponent },
+    { path: 'apparel/mens', component: ApparelMensComponent },
     { path: 'company', component: CompanyComponent },
     { path: 'company/calendar', component: CompanyCalendarComponent },
     { path: 'company/contact', component: CompanyContactComponent },
