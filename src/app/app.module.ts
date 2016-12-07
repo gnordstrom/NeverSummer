@@ -32,6 +32,8 @@ import { ApparelHoodiesComponent } from './apparel/apparel-hoodies/apparel-hoodi
 import { ApparelHatsComponent } from './apparel/apparel-hats/apparel-hats.component';
 import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/apparel-accessories.component';
 import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.component';
+import { ApparelWomensComponent } from './apparel/apparel-womens/apparel-womens.component';
+import { ApparelKidsComponent } from './apparel/apparel-kids/apparel-kids.component';
 
 @NgModule({
   declarations: [
@@ -61,6 +63,8 @@ import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.compon
     ApparelHatsComponent,
     ApparelAccessoriesComponent,
     ApparelMensComponent,
+    ApparelWomensComponent,
+    ApparelKidsComponent,
   ],
   imports: [
     BrowserModule,

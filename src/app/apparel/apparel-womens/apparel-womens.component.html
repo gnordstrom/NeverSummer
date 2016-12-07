@@ -1,5 +1,5 @@
 <div class="apparel-header">
-	<h1 class="text-align-center">Men's</h1>
+	<h1 class="text-align-center">Women's</h1>
 		<ul id="categories">
 			<li><a [routerLink]="['/apparel/shirts']">Shirts</a></li>
 			<li><a [routerLink]="['/apparel/hoodies']">Hoodies</a></li>
@@ -18,10 +18,9 @@
 		<img src="../../assets/img/apparel/ApparelHero.jpg" alt="">
 	</div>
 
-	<div *ngFor="let men of mens">
-      <p>{{men.name}}</p>
-      <img src="{{men.photo}}" alt="">
+	<div *ngFor="let women of womens">
+      <p>{{women.name}}</p>
+      <img src="{{women.photo}}" alt="">
     </div>
 </div>
-
 

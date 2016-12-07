@@ -1,5 +1,5 @@
 SELECT * FROM shirts
-WHERE genderid = 1
+WHERE genderid = 2
 UNION ALL
 SELECT * from hoodies
-WHERE genderid = 1
+WHERE genderid = 2

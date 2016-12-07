@@ -77,6 +77,27 @@ app.get('/apparel/items/mens', function(req, res, next) {
   });
 })
 
+// Womens
+app.get('/apparel/items/womens', function(req, res, next) {
+  db.get_womens(function(err, womens) {
+    if (err) {
+      res.status(500).json(err);
+    } else {
+      res.json(womens)
+    }
+  });
+})
+
+// Kids
+app.get('/apparel/items/kids', function(req, res, next) {
+  db.get_kids(function(err, kids) {
+    if (err) {
+      res.status(500).json(err);
+    } else {
+      res.json(kids)
+    }
+  });
+})
 
 app.listen(8080, function() {
     console.log('Connected on port 8080');
