@@ -44,6 +44,27 @@ import { LongboardsBoardHeistComponent } from './longboards/longboards-board-hei
 import { LongboardsBoardReaperComponent } from './longboards/longboards-board-reaper/longboards-board-reaper.component';
 import { LongboardsBoardSuperfreakComponent } from './longboards/longboards-board-superfreak/longboards-board-superfreak.component';
 import { LongboardsBoardWingmanComponent } from './longboards/longboards-board-wingman/longboards-board-wingman.component';
+import { SnowboardsBoardAuraComponent } from './snowboards/snowboards-board-aura/snowboards-board-aura.component';
+import { SnowboardsBoardAuraSplitComponent } from './snowboards/snowboards-board-aura-split/snowboards-board-aura-split.component';
+import { SnowboardsBoardBantamComponent } from './snowboards/snowboards-board-bantam/snowboards-board-bantam.component';
+import { SnowboardsBoardChairmanComponent } from './snowboards/snowboards-board-chairman/snowboards-board-chairman.component';
+import { SnowboardsBoardFunslingerComponent } from './snowboards/snowboards-board-funslinger/snowboards-board-funslinger.component';
+import { SnowboardsBoardInfinityComponent } from './snowboards/snowboards-board-infinity/snowboards-board-infinity.component';
+import { SnowboardsBoardOnyxComponent } from './snowboards/snowboards-board-onyx/snowboards-board-onyx.component';
+import { SnowboardsBoardProspectorSplitComponent } from './snowboards/snowboards-board-prospector-split/snowboards-board-prospector-split.component';
+import { SnowboardsBoardProtoMiniComponent } from './snowboards/snowboards-board-proto-mini/snowboards-board-proto-mini.component';
+import { SnowboardsBoardProtoTypeTwoComponent } from './snowboards/snowboards-board-proto-type-two/snowboards-board-proto-type-two.component';
+import { SnowboardsBoardRipsawComponent } from './snowboards/snowboards-board-ripsaw/snowboards-board-ripsaw.component';
+import { SnowboardsBoardShredderComponent } from './snowboards/snowboards-board-shredder/snowboards-board-shredder.component';
+import { SnowboardsBoardSnowtrooperComponent } from './snowboards/snowboards-board-snowtrooper/snowboards-board-snowtrooper.component';
+import { SnowboardsBoardStarletComponent } from './snowboards/snowboards-board-starlet/snowboards-board-starlet.component';
+import { SnowboardsBoardSwiftComponent } from './snowboards/snowboards-board-swift/snowboards-board-swift.component';
+import { SnowboardsBoardTwentyFiveSplitComponent } from './snowboards/snowboards-board-twenty-five-split/snowboards-board-twenty-five-split.component';
+import { SnowboardsBoardTwentyFiveComponent } from './snowboards/snowboards-board-twenty-five/snowboards-board-twenty-five.component';
+import { SnowboardsBoardWarlockComponent } from './snowboards/snowboards-board-warlock/snowboards-board-warlock.component';
+import { SnowboardsBoardWestComponent } from './snowboards/snowboards-board-west/snowboards-board-west.component';
+import { SnowboardsBoardWestSplitComponent } from './snowboards/snowboards-board-west-split/snowboards-board-west-split.component';
+import { SnowboardsBoardProtoTypeTwoWomensComponent } from './snowboards/snowboards-board-proto-type-two-womens/snowboards-board-proto-type-two-womens.component';
 
 @NgModule({
   declarations: [
@@ -85,6 +106,27 @@ import { LongboardsBoardWingmanComponent } from './longboards/longboards-board-w
     LongboardsBoardReaperComponent,
     LongboardsBoardSuperfreakComponent,
     LongboardsBoardWingmanComponent,
+    SnowboardsBoardAuraComponent,
+    SnowboardsBoardAuraSplitComponent,
+    SnowboardsBoardBantamComponent,
+    SnowboardsBoardChairmanComponent,
+    SnowboardsBoardFunslingerComponent,
+    SnowboardsBoardInfinityComponent,
+    SnowboardsBoardOnyxComponent,
+    SnowboardsBoardProspectorSplitComponent,
+    SnowboardsBoardProtoMiniComponent,
+    SnowboardsBoardProtoTypeTwoComponent,
+    SnowboardsBoardRipsawComponent,
+    SnowboardsBoardShredderComponent,
+    SnowboardsBoardSnowtrooperComponent,
+    SnowboardsBoardStarletComponent,
+    SnowboardsBoardSwiftComponent,
+    SnowboardsBoardTwentyFiveSplitComponent,
+    SnowboardsBoardTwentyFiveComponent,
+    SnowboardsBoardWarlockComponent,
+    SnowboardsBoardWestComponent,
+    SnowboardsBoardWestSplitComponent,
+    SnowboardsBoardProtoTypeTwoWomensComponent,
   ],
   imports: [
     BrowserModule,
