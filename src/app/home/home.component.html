@@ -82,55 +82,39 @@
 			<p class="monospace title-has-line text-align-center">The Latest and Greatest</p>
 		</div>
 
-		<div id="portfolio">
-			<div class="portfolio-item">
-				<a href="#">
-					<img class="portfolio-img" src="../../assets/products/snowboards/proto/NS_ProtoT217_1-Action=thumbnail&amp;Width=715&amp;Height=570&amp;algorithm=fill_proportional.jpg" alt="">
-				</a>
-			</div>
-			<div class="portfolio-item">
-				<a href="#">
-					<img class="portfolio-img" src="../../assets/products/snowboards/Cobra/NS_TwentyFive17_1-Action=thumbnail&amp;Width=715&amp;Height=570&amp;algorithm=fill_proportional.jpg" alt="">
-				</a>
-			</div>
-			<div class="portfolio-item">
-				<a href="#">
-					<img class="portfolio-img" src="../../assets/products/snowboards/Evo/NS_Warlock17_1-Action=thumbnail&amp;Width=715&amp;Height=570&amp;algorithm=fill_proportional.jpg" alt="">
-				</a>
+		<div id="portfolio-wrap">
+			<div id="portfolio" data-col="3">
+				<div class="item1" style="background-color:#eee;">
+					<a [routerLink]="['snowboards/board/proto-type-two']">
+						<div class="item-content" style="background-image:url('../../assets/products/snowboards/proto/NS_ProtoT217_1-Action=thumbnail&amp;Width=715&amp;Height=570&amp;algorithm=fill_proportional.jpg')"></div>
+						<div class="item-overlay">
+							<span class="item-title">Proto Type Two</span>
+							<span class="item-cat">All Mountain Twin</span>
+						</div>
+					</a>
+				</div>
+				<div class="item2" style="background-color:#eee;">
+					<a [routerLink]="['snowboards/board/twenty-five']">
+						<div class="item-content" style="background-image:url('../../assets/products/snowboards/Cobra/NS_TwentyFive17_1-Action=thumbnail&amp;Width=715&amp;Height=570&amp;algorithm=fill_proportional.jpg')"></div>
+						<div class="item-overlay">
+							<span class="item-title">Twenty Five</span>
+							<span class="item-cat">Freeride</span>
+						</div>
+					</a>
+				</div>
+				<div class="item3" style="background-color:#eee;">
+					<a [routerLink]="['snowboards/board/warlock']">
+						<div class="item-content" style="background-image:url('../../assets/products/snowboards/Evo/NS_Warlock17_1-Action=thumbnail&amp;Width=715&amp;Height=570&amp;algorithm=fill_proportional.jpg')"></div>
+						<div class="item-overlay">
+							<span class="item-title">Warlock</span>
+							<span class="item-cat">Freestyle Twin</span>
+						</div>
+					</a>
+				</div>
+
 			</div>
 		</div>
 
-		<!--<div id="portfolio-wrap" class="">
-					<div id="portfolio" class="auto-construct" data-col="3">
-						<div class="item" style="background-color:#eee;">
-							<a class="ajax-link" href="snowboards/proto-typetwo.html">
-								<div class="item-content" style="background-image:url('../../assets/products/snowboards/proto/NS_ProtoT217_1-Action=thumbnail&amp;Width=715&amp;Height=570&amp;algorithm=fill_proportional.jpg')"></div>
-								<div class="item-overlay">
-									<span class="item-title">Proto Type Two</span>
-									<span class="item-cat">All Mountain Twin</span>
-								</div>
-							</a>
-						</div>
-						<div class="item" style="background-color:#eee;">
-							<a class="ajax-link" href="snowboards/twentyfive.html">
-								<div class="item-content" style="background-image:url('../../assets/products/snowboards/Cobra/NS_TwentyFive17_1-Action=thumbnail&amp;Width=715&amp;Height=570&amp;algorithm=fill_proportional.jpg')"></div>
-								<div class="item-overlay">
-									<span class="item-title">Twenty Five</span>
-									<span class="item-cat">Freeride</span>
-								</div>
-							</a>
-						</div>
-						<div class="item" style="background-color:#eee;">
-							<a class="ajax-link" href="snowboards/warlock.html">
-								<div class="item-content" style="background-image:url('../../assets/products/snowboards/Evo/NS_Warlock17_1-Action=thumbnail&amp;Width=715&amp;Height=570&amp;algorithm=fill_proportional.jpg')"></div>
-								<div class="item-overlay">
-									<span class="item-title">Warlock</span>
-									<span class="item-cat">Freestyle Twin</span>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>-->
 
 	</div>
 </div>
