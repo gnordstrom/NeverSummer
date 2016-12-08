@@ -151,14 +151,19 @@ section .overlay {
 	text-align:center;
 	font-family: 'Titillium Web';
 	font-weight: 400;
+    // font-weight: bold;
 	font-size: 13px;
 	color:#000;
     background: rgba(255,255,255,0.7);
 }
 .specstable tbody td {
 	padding:10px;
+    color: #000;
 	text-align:center;
     background: rgba(255,255,255,0.4);
+}
+.spec-list {
+    color: #fff;
 }
 
 
@@ -248,3 +253,4 @@ figure.youtube-vimeo { display:none; }
 figure.youtube-youtube { display:block; }
 figure.youtube-none { display:none; }
 figure.vimeo-none { display:none; }
+	
