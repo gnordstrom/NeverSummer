@@ -1,10 +1,28 @@
-<div class="shirt-content">
-  <p>
-    apparel-shirts works!
-  </p>
-
-  <div *ngFor="let shirt of shirts">
-    <p>{{shirt.name}}</p>
-    <img src="{{shirt.photo}}" alt="">
-  </div>
+<div class="apparel-header">
+	<h1 class="text-align-center">Shirts</h1>
+		<ul id="categories">
+			<li><a [routerLink]="['/apparel/shirts']">Shirts</a></li>
+			<li><a [routerLink]="['/apparel/hoodies']">Hoodies</a></li>
+			<li><a [routerLink]="['/apparel/hats']">Hats</a></li>
+			<li><a [routerLink]="['/apparel/accessories']">Accessories</a></li>
+			<li><a [routerLink]="['/apparel/mens']">Mens</a></li>
+			<li><a [routerLink]="['/apparel/womens']">Womens</a></li>
+			<li><a [routerLink]="['/apparel/kids']">Kids</a></li>
+		</ul>
 </div>
+
+<div id="content">	
+
+	<!--<div class="top-parallax" style="background-image:url('../../assets/img/apparel/ApparelHero.jpg')"></div>-->
+	<div class="store-img">
+		<img src="../../assets/img/apparel/ApparelHero.jpg" alt="">
+	</div>
+
+	<div *ngFor="let shirt of shirts">
+		<p>{{shirt.name}}</p>
+		<img src="{{shirt.photo}}" alt="">
+	</div>
+</div>
+
+
+

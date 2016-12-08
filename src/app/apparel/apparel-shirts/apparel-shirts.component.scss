@@ -1,7 +1,57 @@
-.shirt-content {
-    margin-top: 200px;    
+// Header
+.apparel-header {
+	margin-top: 75px;
+	position: relative;
 }
 
-p {
-    text-align: center;
+.store-img {
+	display: flex;
+	justify-content: center;
+}
+
+.store-img img {
+	width: 750px;
+	height: 350px;
+}
+
+#main {
+	margin-top: 50px;
+}
+
+
+// Navigation Links
+#categories {
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	opacity:1;
+	max-height:200px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#categories li {
+	display: inline-block;
+	height: 20px;
+	line-height: 20px;
+	margin: 0px 10px 20px;
+}
+#categories li a {
+	display:inline-block;
+	text-transform:uppercase;
+	color:#999999;
+	font-family: 'Titillium Web';
+	font-weight:600;
+	font-size:14px;
+}
+#categories li a:hover {
+	color:#e11f26;
+}
+	
+#categories li a.active {
+	color:#000;
+	font-weight:700;
 }

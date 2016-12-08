@@ -8,10 +8,129 @@
 	<div id="main">
 		<h1 class="title-has-line text-align-center">Longboards</h1>
 
-				<!-- Longboard info goes here, pull from database instead of hardcode -->
+		<ul id="filters">
+			<li><a id="all" href="index.html#" data-filter="*" class="active">All</a></li>
+			<li><a href="index.html#" data-filter=".8356146">Downhill</a></li>
+			<li><a href="index.html#" data-filter=".8355548">Freeride</a></li>
+			<li><a href="index.html#" data-filter=".8356147">Cruiser</a></li>
+		</ul>
 	
 
-		<h2 style="text-align: center;">Longboard Content Goes here from DB</h2>
+		<div id="portfolio-wrap" class="no-gutter">
+			<div id="portfolio" data-col="6">
+
+				<div class="item1">
+					<a [routerLink]="['/longboards/board/avalanche']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/Avalanche/AvalancheSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">Avalanche</span>
+							<span class="item-cat">Downhill/Freeride</span>
+						</div>
+					</a>
+				</div>
+				<div class="item2">
+					<a [routerLink]="['/longboards/board/clutch']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/Clutch/ClutchSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">Clutch</span>
+							<span class="item-cat">Cruiser/Freeride</span>
+						</div>
+					</a>
+				</div>
+				<div class="item3">
+					<a [routerLink]="['/longboards/board/covert']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/Commander/CovertSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">Covert</span>
+							<span class="item-cat">Cruiser/Freeride</span>
+						</div>
+					</a>
+				</div>
+				<div class="item4">
+					<a [routerLink]="['/longboards/board/deviant']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/Deviant/DeviantSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">Deviant</span>
+							<span class="item-cat">Freeride Downhill</span>
+						</div>
+					</a>
+				</div>
+				<div class="item5">
+					<a [routerLink]="['/longboards/board/dime']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/Revival/DimeSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">Dime</span>
+							<span class="item-cat">Cruiser/Mini</span>
+						</div>
+					</a>
+				</div>
+				<div class="item6">
+					<a [routerLink]="['/longboards/board/el-jefe']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/admiral/ElJefeSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">El Jefe</span>
+							<span class="item-cat">Cruiser/Carver</span>
+						</div>
+					</a>
+				</div>
+				<div class="item7">
+					<a [routerLink]="['/longboards/board/heist']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/Heist/HeistSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">Heist</span>
+							<span class="item-cat">Flex Deck</span>
+						</div>
+					</a>
+				</div>
+				<div class="item8">
+					<a [routerLink]="['/longboards/board/reaper']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/Reaper/ReaperSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">Reaper</span>
+							<span class="item-cat">Downhill</span>
+						</div>
+					</a>
+				</div>
+				<div class="item9">
+					<a [routerLink]="['/longboards/board/superfreak']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/Superfreak/SuperfreakSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">Superfreak</span>
+							<span class="item-cat">Cruiser/Freeride</span>
+						</div>
+					</a>
+				</div>
+				<div class="item10">
+					<a [routerLink]="['/longboards/board/wingman']">
+						<div class="item-content" style="background-image:url('../../../assets/products/longboards/Hooligan/WingmanSingle.png')"></div>
+						<div class="item-overlay overlay-white">
+							<span class="item-title">Wingman</span>
+							<span class="item-cat">Downhill/Freeride</span>
+						</div>
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 		<div class="container">
@@ -26,104 +145,104 @@
 
 			<ul class="our-team">
 
-						<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/Wingmanedit-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
-							<div class="team-overflow">
-								<div class="team-info">
-									<h5 class="team-name">Everyone needs a Wingman!</h5>
-									<p class="monospace title-has-line team-function">16-May-2016</p>
-									<p class="team-description">New Never Summer Wingman!</p>
-									<a href="../news-feed/everyone-needs-a-wingman.html" class="clapat-button outline-button">Read More</a>
-								</div>
-							</div>
-						</li>
-						<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/dimevideo16-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
-							<div class="team-overflow">
-								<div class="team-info">
-									<h5 class="team-name">New Never Summer Dime</h5>
-									<p class="monospace title-has-line team-function">20-Apr-2016</p>
-									<p class="team-description">The Dime is the perfect slash and stash deck!</p>
-									<a href="../news-feed/new-never-summer-dime.html" class="clapat-button outline-button">Read More</a>
-								</div>
-							</div>
-						</li>
-						<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/factory_april12-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
-							<div class="team-overflow">
-								<div class="team-info">
-									<h5 class="team-name">Never Summer Factory</h5>
-									<p class="monospace title-has-line team-function">12-Apr-2016</p>
-									<p class="team-description">See how the most durable longboards are made!</p>
-									<a href="../news-feed/never-summer-factory.html" class="clapat-button outline-button">Read More</a>
-								</div>
-							</div>
-						</li>
-						<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/eljefereview-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
-							<div class="team-overflow">
-								<div class="team-info">
-									<h5 class="team-name">Try the El Jefe</h5>
-									<p class="monospace title-has-line team-function">08-Mar-2016</p>
-									<p class="team-description">Review from Tye Donneley, Oceanside, CA </p>
-									<a href="../news-feed/el-jefe.html" class="clapat-button outline-button">Read More</a>
-								</div>
-							</div>
-						</li>
-						<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/tyepost-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
-							<div class="team-overflow">
-								<div class="team-info">
-									<h5 class="team-name">Tye Donnely</h5>
-									<p class="monospace title-has-line team-function">19-Aug-2015</p>
-									<p class="team-description">Longboarding Colorado</p>
-									<a href="../news-feed/tye-donnely.html" class="clapat-button outline-button">Read More</a>
-								</div>
-							</div>
-						</li>
-						<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/wood-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
-							<div class="team-overflow">
-								<div class="team-info">
-									<h5 class="team-name">Woodward Summer Camps</h5>
-									<p class="monospace title-has-line team-function">10-Jul-2015</p>
-									<p class="team-description">Never Summer goes to camp...</p>
-									<a href="../news-feed/woodward-summer-camps.html" class="clapat-button outline-button">Read More</a>
-								</div>
-							</div>
-						</li>
-						<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/chase-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
-							<div class="team-overflow">
-								<div class="team-info">
-									<h5 class="team-name">Chase Blackwell in the Pools</h5>
-									<p class="monospace title-has-line team-function">07-Jul-2015</p>
-									<p class="team-description">Chase Blackwell tearing it up on our pool deck, the Revival</p>
-									<a href="../news-feed/chase-blackwell-in-the-pools.html" class="clapat-button outline-button">Read More</a>
-								</div>
-							</div>
-						</li>
-						<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/2poker-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
-							<div class="team-overflow">
-								<div class="team-info">
-									<h5 class="team-name">Never Summer Poker Run</h5>
-									<p class="monospace title-has-line team-function">19-Jun-2015</p>
-									<p class="team-description">Never Summer Poker Run through Denver Highlands</p>
-									<a href="../news-feed/never-summer-poker-run.html" class="clapat-button outline-button">Read More</a>
-								</div>
-							</div>
-						</li>
-						<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/lyle-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
-							<div class="team-overflow">
-								<div class="team-info">
-									<h5 class="team-name">Never Summer Rider Lyle Killin It</h5>
-									<p class="monospace title-has-line team-function">15-Jun-2015</p>
-									<p class="team-description">Never Summer team rider, Lyle, killin' it down Lookout Mountain</p>
-									<a href="../news-feed/never-summer-rider-lyle-killin-it.html" class="clapat-button outline-button">Read More</a>
-								</div>
-							</div>
-						</li>
-						<ul id="webapp38150pagination" class="pagination webapp">
-							<li class="pag-current">1</li>
-							<li class="pag-number"><a href="#">2</a></li>
-							<li class="pag-next"><a href="#">Next</a></li>
-						</ul>
+				<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/Wingmanedit-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
+					<div class="team-overflow">
+						<div class="team-info">
+							<h5 class="team-name">Everyone needs a Wingman!</h5>
+							<p class="monospace title-has-line team-function">16-May-2016</p>
+							<p class="team-description">New Never Summer Wingman!</p>
+							<a href="../news-feed/everyone-needs-a-wingman.html" class="clapat-button outline-button">Read More</a>
+						</div>
+					</div>
+				</li>
+				<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/dimevideo16-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
+					<div class="team-overflow">
+						<div class="team-info">
+							<h5 class="team-name">New Never Summer Dime</h5>
+							<p class="monospace title-has-line team-function">20-Apr-2016</p>
+							<p class="team-description">The Dime is the perfect slash and stash deck!</p>
+							<a href="../news-feed/new-never-summer-dime.html" class="clapat-button outline-button">Read More</a>
+						</div>
+					</div>
+				</li>
+				<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/factory_april12-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
+					<div class="team-overflow">
+						<div class="team-info">
+							<h5 class="team-name">Never Summer Factory</h5>
+							<p class="monospace title-has-line team-function">12-Apr-2016</p>
+							<p class="team-description">See how the most durable longboards are made!</p>
+							<a href="../news-feed/never-summer-factory.html" class="clapat-button outline-button">Read More</a>
+						</div>
+					</div>
+				</li>
+				<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/eljefereview-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
+					<div class="team-overflow">
+						<div class="team-info">
+							<h5 class="team-name">Try the El Jefe</h5>
+							<p class="monospace title-has-line team-function">08-Mar-2016</p>
+							<p class="team-description">Review from Tye Donneley, Oceanside, CA </p>
+							<a href="../news-feed/el-jefe.html" class="clapat-button outline-button">Read More</a>
+						</div>
+					</div>
+				</li>
+				<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/tyepost-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
+					<div class="team-overflow">
+						<div class="team-info">
+							<h5 class="team-name">Tye Donnely</h5>
+							<p class="monospace title-has-line team-function">19-Aug-2015</p>
+							<p class="team-description">Longboarding Colorado</p>
+							<a href="../news-feed/tye-donnely.html" class="clapat-button outline-button">Read More</a>
+						</div>
+					</div>
+				</li>
+				<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/wood-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
+					<div class="team-overflow">
+						<div class="team-info">
+							<h5 class="team-name">Woodward Summer Camps</h5>
+							<p class="monospace title-has-line team-function">10-Jul-2015</p>
+							<p class="team-description">Never Summer goes to camp...</p>
+							<a href="../news-feed/woodward-summer-camps.html" class="clapat-button outline-button">Read More</a>
+						</div>
+					</div>
+				</li>
+				<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/chase-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
+					<div class="team-overflow">
+						<div class="team-info">
+							<h5 class="team-name">Chase Blackwell in the Pools</h5>
+							<p class="monospace title-has-line team-function">07-Jul-2015</p>
+							<p class="team-description">Chase Blackwell tearing it up on our pool deck, the Revival</p>
+							<a href="../news-feed/chase-blackwell-in-the-pools.html" class="clapat-button outline-button">Read More</a>
+						</div>
+					</div>
+				</li>
+				<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/2poker-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
+					<div class="team-overflow">
+						<div class="team-info">
+							<h5 class="team-name">Never Summer Poker Run</h5>
+							<p class="monospace title-has-line team-function">19-Jun-2015</p>
+							<p class="team-description">Never Summer Poker Run through Denver Highlands</p>
+							<a href="../news-feed/never-summer-poker-run.html" class="clapat-button outline-button">Read More</a>
+						</div>
+					</div>
+				</li>
+				<li class="team-member" style="background-image:url('../../../assets/img/longboards/newsfeed/lyle-Action=thumbnail&amp;Width=500&amp;Height=500&amp;algorithm=fill_proportional.jpg');">
+					<div class="team-overflow">
+						<div class="team-info">
+							<h5 class="team-name">Never Summer Rider Lyle Killin It</h5>
+							<p class="monospace title-has-line team-function">15-Jun-2015</p>
+							<p class="team-description">Never Summer team rider, Lyle, killin' it down Lookout Mountain</p>
+							<a href="../news-feed/never-summer-rider-lyle-killin-it.html" class="clapat-button outline-button">Read More</a>
+						</div>
+					</div>
+				</li>
+				<ul id="webapp38150pagination" class="pagination webapp">
+					<li class="pag-current">1</li>
+					<li class="pag-number"><a href="#">2</a></li>
+					<li class="pag-next"><a href="#">Next</a></li>
+				</ul>
 
 
-					</ul>
+			</ul>
 
 
 		</div>
