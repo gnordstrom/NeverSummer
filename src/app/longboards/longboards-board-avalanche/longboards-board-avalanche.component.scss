@@ -12,7 +12,6 @@
 	width: 100%;
 }
 
-
 // Main Content
 .one_half {
     width: 47%;
@@ -24,28 +23,22 @@
     position: relative;
 }	
 
-
 /*--------------------------------------------------
 	04.5 Dropdown Buttons
 ---------------------------------------------------*/
-
-
 .buyNowWrapper {
     position:relative;
     margin-top:40px;
     z-index:999;
 }
-
 .buyNow, .buyNow ul {
     list-style:none;
     padding:0;
     margin:0;
 }
-
 .buyNow > li {
     display:block;
 }
-
 .buyNow > li > a {
     color: #fff;
     font-family: 'Titillium Web', sans-serif;
@@ -66,12 +59,9 @@
     text-align: center;
     background-color: #e11f26;
 }
-
 .buyNow > li > a:hover {
     background-color: #000;
 }
-
-
 .buyNow li ul {
     padding: 0;
     position: absolute;
@@ -111,11 +101,9 @@
     opacity: 1;
     visibility: visible;
 }
-
 .last {
     margin-right:0px;
 }
-
 
 // Bottom Parralax
 section {
@@ -127,7 +115,6 @@ section {
 	z-index: 0;
 	display: inline-block;
 }
-
 section .overlay {
 	margin-left: -50%;
 	padding-left: 50%;
@@ -149,7 +136,6 @@ section .overlay {
 .specsfeatures br { 
     display:none; 
 }
-
 .specsfeatures .title-has-line:after {
     background: none repeat scroll 0 0 #999;
 }
@@ -159,22 +145,25 @@ section .overlay {
 .specstable {
 	margin:40px 0;
 }
-
 .specstable thead td {
 	padding:10px;
 	font-weight:bold;
 	text-align:center;
 	font-family: 'Titillium Web';
 	font-weight: 400;
+    // font-weight: bold;
 	font-size: 13px;
 	color:#000;
     background: rgba(255,255,255,0.7);
 }
-
 .specstable tbody td {
 	padding:10px;
+    color: #000;
 	text-align:center;
     background: rgba(255,255,255,0.4);
+}
+.spec-list {
+    color: #fff;
 }
 
 
@@ -183,7 +172,6 @@ section .overlay {
     display: flex;
     justify-content: space-between;
 }
-
 .box-img {
     width: 30%;
 }
@@ -191,7 +179,6 @@ section .overlay {
 
 // Bottom parallax with youtube
 /* Video Hover Play Image */	
-
 .cntVid, figure.vimeo, figure.youtube {
     margin:0;
     position: relative;
@@ -200,7 +187,6 @@ section .overlay {
     height: 0;
     overflow: hidden;
 }
-
 .cntVid iframe {
     position: absolute;
     top: 0;
@@ -208,7 +194,6 @@ section .overlay {
     width: 100%;
     height: 100%;
 }
-
 figure.youtube a img, figure.vimeo a img {
     position: absolute;
     top: 0;
@@ -217,7 +202,6 @@ figure.youtube a img, figure.vimeo a img {
     height: 100%;
     max-width:none;
 }
-
 figure.vimeo a:after, figure.youtube a:after {
     content:"";
     width:60px;
@@ -233,7 +217,6 @@ figure.vimeo a:after, figure.youtube a:after {
     -moz-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.01);
     box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.01);
 }
-
 figure.vimeo a:before, figure.youtube a:before {
     content:"";
     width: 0;
@@ -249,21 +232,18 @@ figure.vimeo a:before, figure.youtube a:before {
     margin-top:-4px;
     display:block;
 }
-
 figure.vimeo a:hover img, figure.youtube a:hover img {
     -webkit-transition: all 0.6s;
     transition: all 0.6s;
     -webkit-transform: scale(1.02);
     transform: scale(1.02);
 }
-
 figure.vimeo a img, figure.youtube a img {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
-
 section.video-none { display:none; }
 section.video-vimeo { display:block; }
 section.video-youtube { display:block; }
