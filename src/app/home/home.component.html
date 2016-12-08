@@ -1,5 +1,18 @@
 <div id="content">
-	<div class="top-parallax" style="background-image:url('../../../assets/img/home/1101HomeHero.jpg')"></div>
+	<div class="top-parallax" style="background-image:url('../../../assets/img/home/1101HomeHero.jpg')">
+		<div class="outer">
+			<div class="inner">
+				<div *ngIf="playActive" class="play-icon">
+					><i class="fa fa-play" (click)="onClick()"></i>
+				</div>
+				<div *ngIf="clicked" class="cntVid">
+					<figure class="youtube youtube-youtube">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/UNsyfauAdg8" frameborder="0" allowfullscreen></iframe>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<div id="main">
 		<div class="container">
