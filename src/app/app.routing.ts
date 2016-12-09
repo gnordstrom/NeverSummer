@@ -125,8 +125,8 @@ const APP_ROUTES: Routes = [
     { path: 'store/special-edition', component: SpecialEditionComponent },
     { path: 'store/special-edition/camoflauge', component: Ns25CamoflaugeComponent },
     { path: 'store/special-edition/grey', component: Ns25GreyComponent },
-    { path: 'store/special-edition/glove', component: Ns25GloveComponent },
-    { path: 'store/special-edition/mitt', component: Ns25MittComponent },
+    { path: 'store/special-edition/gloves', component: Ns25GloveComponent },
+    { path: 'store/special-edition/mitts', component: Ns25MittComponent },
     { path: 'store/special-edition/knifes', component: Ns25KnifeComponent },
     // { path: '//', loadChildren: './users/user.module#UserModule'}
 ];
