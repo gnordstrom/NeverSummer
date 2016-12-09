@@ -1,3 +1,8 @@
+import { LongboardsTeamZachBaileyComponent } from './longboards/longboards-team/longboards-team-zach-bailey/longboards-team-zach-bailey.component';
+import { LongboardsTeamTyeDonnellyComponent } from './longboards/longboards-team/longboards-team-tye-donnelly/longboards-team-tye-donnelly.component';
+import { LongboardsTeamLyleHansbergerComponent } from './longboards/longboards-team/longboards-team-lyle-hansberger/longboards-team-lyle-hansberger.component';
+import { LongboardsTeamDaveMortonComponent } from './longboards/longboards-team/longboards-team-dave-morton/longboards-team-dave-morton.component';
+import { LongboardsTeamAlecOlguinComponent } from './longboards/longboards-team/longboards-team-alec-olguin/longboards-team-alec-olguin.component';
 import { Ns25GreyComponent } from './store/special-edition/ns25-grey/ns25-grey.component';
 import { Ns25GloveComponent } from './store/special-edition/ns25-glove/ns25-glove.component';
 import { Ns25MittComponent } from './store/special-edition/ns25-mitt/ns25-mitt.component';
@@ -89,6 +94,11 @@ const APP_ROUTES: Routes = [
     { path: 'longboards/videos', component: LongboardsVideosComponent },
     { path: 'longboards/tech', component: LongboardsTechComponent },
     { path: 'longboards/team', component: LongboardsTeamComponent },
+    { path: 'longboards/team/alec-olguin', component: LongboardsTeamAlecOlguinComponent },
+    { path: 'longboards/team/dave-morton', component: LongboardsTeamDaveMortonComponent },
+    { path: 'longboards/team/lyle-hansberger', component: LongboardsTeamLyleHansbergerComponent },
+    { path: 'longboards/team/tye-donnelly', component: LongboardsTeamTyeDonnellyComponent },
+    { path: 'longboards/team/zach-bailey', component: LongboardsTeamZachBaileyComponent },
     { path: 'snowboards', component: SnowboardsComponent },
     { path: 'snowboards/board/aura', component: SnowboardsBoardAuraComponent },
     { path: 'snowboards/board/aura-split', component: SnowboardsBoardAuraSplitComponent },

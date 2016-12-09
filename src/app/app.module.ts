@@ -71,6 +71,11 @@ import { Ns25GreyComponent } from './store/special-edition/ns25-grey/ns25-grey.c
 import { Ns25GloveComponent } from './store/special-edition/ns25-glove/ns25-glove.component';
 import { Ns25MittComponent } from './store/special-edition/ns25-mitt/ns25-mitt.component';
 import { Ns25KnifeComponent } from './store/special-edition/ns25-knife/ns25-knife.component';
+import { LongboardsTeamAlecOlguinComponent } from './longboards/longboards-team/longboards-team-alec-olguin/longboards-team-alec-olguin.component';
+import { LongboardsTeamDaveMortonComponent } from './longboards/longboards-team/longboards-team-dave-morton/longboards-team-dave-morton.component';
+import { LongboardsTeamLyleHansbergerComponent } from './longboards/longboards-team/longboards-team-lyle-hansberger/longboards-team-lyle-hansberger.component';
+import { LongboardsTeamTyeDonnellyComponent } from './longboards/longboards-team/longboards-team-tye-donnelly/longboards-team-tye-donnelly.component';
+import { LongboardsTeamZachBaileyComponent } from './longboards/longboards-team/longboards-team-zach-bailey/longboards-team-zach-bailey.component';
 
 @NgModule({
   declarations: [
@@ -139,6 +144,11 @@ import { Ns25KnifeComponent } from './store/special-edition/ns25-knife/ns25-knif
     Ns25GloveComponent,
     Ns25MittComponent,
     Ns25KnifeComponent,
+    LongboardsTeamAlecOlguinComponent,
+    LongboardsTeamDaveMortonComponent,
+    LongboardsTeamLyleHansbergerComponent,
+    LongboardsTeamTyeDonnellyComponent,
+    LongboardsTeamZachBaileyComponent,
   ],
   imports: [
     BrowserModule,
