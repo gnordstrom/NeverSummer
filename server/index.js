@@ -9,9 +9,10 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use('/', express.static(__dirname + './../dist'));
 
+const config = require('./config.js');
 
 let db = massive.connect({
-   connectionString: "postgres://tkcgusag:cSsx-A6IvaS-Kp_eEhnzu9va3zaXolyi@elmer.db.elephantsql.com:5432/tkcgusag"
+   connectionString: config.elephantsql
  },
  (err, localdb) => {
    db = localdb;
@@ -99,6 +100,6 @@ app.get('/apparel/items/kids', function(req, res, next) {
   });
 })
 
-app.listen(8080, function() {
+app.listen(config.port, function() {
     console.log('Connected on port 8080');
 })
