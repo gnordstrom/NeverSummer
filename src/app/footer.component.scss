@@ -82,39 +82,3 @@ ul.footer-socials li a:hover {
     float:left;
 }
 
-.text-socials-minimal {
-    margin:0;
-    display:block;
-    float:right;
-}
-
-.text-socials-minimal li {
-    display:inline-block;
-    font-family: 'Titillium Web' ;
-    font-weight:400;
-    font-size:14px;
-    letter-spacing:1px;
-    margin-right:5px;
-}
-
-.text-socials-minimal li:last-child {
-    margin-right:0;
-}
-
-.text-socials-minimal li:after {
-    content:","
-}
-
-.text-socials-minimal li:first-child:after, .text-socials-minimal li:last-child:after {
-    content:""
-}
-
-.text-socials-minimal li a {
-    color:#999;
-    text-transform:uppercase;
-    line-height:25px;
-}
-
-.text-socials-minimal li a:hover {
-    color: #e11f26;
-}

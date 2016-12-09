@@ -19,26 +19,17 @@
 		<h1 class="title-has-line text-align-center">Snowboards</h1>
 
 		<ul id="filters">
-			<li><a id="all" [routerLink]="['/snowboards']" class="active">All</a></li>
+			<li><a id="all" [routerLink]="['/snowboards']">All</a></li>
 			<li><a [routerLink]="['/snowboards/all-mountain']">All Mountain</a></li>
 			<li><a [routerLink]="['/snowboards/freeride']">Freeride</a></li>
 			<li><a [routerLink]="['/snowboards/freestyle']">Freestyle</a></li>
-			<li><a [routerLink]="['/snowboards/womens']">Women's</a></li>
+			<li><a [routerLink]="['/snowboards/womens']" class="active">Women's</a></li>
 			<li><a [routerLink]="['/snowboards/kids']">Kids</a></li>
 		</ul>
 
 		<div id="portfolio-wrap" class="no-gutter">
 			<div id="portfolio" data-col="6">
 				<div class="item1">
-					<a [routerLink]="['/snowboards/board/proto-type-two']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/proto/17ProtoT2.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Proto Type Two</span>
-							<span class="item-cat">All Mountain Twin<br /><br />152<br />154<br />157<br />160<br />152X<br />155X<br />158X<br />161X<br />164X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item2">
 					<a [routerLink]="['/snowboards/board/proto-type-two-womens']">
 						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/raven/17WomensProto.png')"></div>
 						<div class="item-overlay overlay-white">
@@ -47,52 +38,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="item3">
-					<a [routerLink]="['/snowboards/board/twenty-five']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/Cobra/1725.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Twenty Five</span>
-							<span class="item-cat">Freeride<br /><br />151<br />155<br />158<br />160<br />162<br />165<br />159X<br />163X<br />166X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item4">
-					<a [routerLink]="['/snowboards/board/warlock']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/Evo/17Warlock.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Warlock</span>
-							<span class="item-cat">Freestyle Twin<br /><br />148<br />150<br />152<br />154<br />157<br />150X<br />153X<br />156X<br />159X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item5">
-					<a [routerLink]="['/snowboards/board/funslinger']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/funslinger/17Funslinger.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Funslinger</span>
-							<span class="item-cat">Freestyle Twin<br /><br />146<br />149<br />151<br />153<br />156<br />159<br />154X<br />157X<br />160X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item6">
-					<a [routerLink]="['/snowboards/board/west']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/heritage/17West2.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">West</span>
-							<span class="item-cat">All Mountain<br /><br />152<br />154<br />156<br />159<br />162<br />157X<br />160X<br />164X<br />168X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item7">
-					<a [routerLink]="['/snowboards/board/swift']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/Summit/17Swift.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Swift</span>
-							<span class="item-cat">Freeride<br /><br />152<br />157<br />162</span>
-						</div>
-					</a>
-				</div>
-				<div class="item8">
+        <div class="item2">
 					<a [routerLink]="['/snowboards/board/aura']">
 						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/SLsplit/17Aura.png')"></div>
 						<div class="item-overlay overlay-white">
@@ -101,34 +47,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="item9">
-					<a [routerLink]="['/snowboards/board/snowtrooper']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/snowtrooper/17Snowtrooper.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Snowtrooper</span>
-							<span class="item-cat">All Mountain<br /><br />152<br />154<br />156<br />159<br />162<br />157X<br />160X<br />164X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item10">
-					<a [routerLink]="['/snowboards/board/ripsaw']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/ripsaw/17Ripsaw.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Ripsaw</span>
-							<span class="item-cat">All Mountain Twin<br /><br />153<br />156<br />159<br />162<br />157X<br />160X<br />163X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item11">
-					<a [routerLink]="['/snowboards/board/chairman']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/chairman/17Chairman.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Chairman</span>
-							<span class="item-cat">Freeride<br /><br />157<br />160<br />164<br />173<br />161X<br />165X<br />169X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item12">
+        <div class="item3">
 					<a [routerLink]="['/snowboards/board/infinity']">
 						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/Infinity/17Infinity.png')"></div>
 						<div class="item-overlay overlay-white">
@@ -137,7 +56,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="item13">
+        <div class="item4">
 					<a [routerLink]="['/snowboards/board/onyx']">
 						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/onyx/17Onyx.png')"></div>
 						<div class="item-overlay overlay-white">
@@ -146,70 +65,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="item14">
-					<a [routerLink]="['/snowboards/board/proto-mini']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/evomini/17ProtoMini.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Mini Proto</span>
-							<span class="item-cat">Kid's All Mountain Twin<br /><br />137<br />140<br />144</span>
-						</div>
-					</a>
-				</div>
-				<div class="item15">
-					<a [routerLink]="['/snowboards/board/bantam']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/evomini/17Bantam.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Bantam</span>
-							<span class="item-cat">Boy's All Mountain Twin<br /><br />119<br />125<br />130<br />136<br />142</span>
-						</div>
-					</a>
-				</div>
-				<div class="item16">
-					<a [routerLink]="['/snowboards/board/starlet']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/Onyxmini/17Starlet.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Starlet</span>
-							<span class="item-cat">Girl's All Mountain Twin<br /><br />119<br />125<br />130<br />136</span>
-						</div>
-					</a>
-				</div>
-				<div class="item17">
-					<a [routerLink]="['/snowboards/board/shredder']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/17Shredder.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Shredder</span>
-							<span class="item-cat">Kid's All Mountain Twin<br /><br />80<br />90<br />100<br />110</span>
-						</div>
-					</a>
-				</div>
-				<div class="item18">
-					<a [routerLink]="['/snowboards/board/twenty-five-split']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/Cobra/1725Split.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Twenty Five Split</span>
-							<span class="item-cat">Freeride<br /><br />162</span>
-						</div>
-					</a>
-				</div>
-				<div class="item19">
-					<a [routerLink]="['/snowboards/board/west-split']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/heritage/17West.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">West Split</span>
-							<span class="item-cat">All Mountain<br /><br />154<br />158<br />160X<br />164X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item20">
-					<a [routerLink]="['/snowboards/board/prospector-split']">
-						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/Prospector/17Prospector.png')"></div>
-						<div class="item-overlay overlay-white">
-							<span class="item-title">Prospector Split</span>
-							<span class="item-cat">Freeride<br /><br />157<br />160<br />164<br />161X<br />167X</span>
-						</div>
-					</a>
-				</div>
-				<div class="item21">
+        <div class="item5">
 					<a [routerLink]="['/snowboards/board/aura-split']">
 						<div class="item-content" style="background-image:url('../../../assets/products/snowboards/Ravensplit/17AuraSplit.png')"></div>
 						<div class="item-overlay overlay-white">

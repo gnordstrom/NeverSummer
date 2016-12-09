@@ -111,6 +111,11 @@ import { SnowboardsTeamSeanFithianComponent } from './snowboards/snowboards-team
 import { SnowboardsTeamTaylorPfaffComponent } from './snowboards/snowboards-team/snowboards-team-taylor-pfaff/snowboards-team-taylor-pfaff.component';
 import { SnowboardsTeamTomFloccoComponent } from './snowboards/snowboards-team/snowboards-team-tom-flocco/snowboards-team-tom-flocco.component';
 import { SnowboardsTeamTonyPavlantosComponent } from './snowboards/snowboards-team/snowboards-team-tony-pavlantos/snowboards-team-tony-pavlantos.component';
+import { BoardsAllMountainComponent } from './snowboards/boards-all-mountain/boards-all-mountain.component';
+import { BoardsFreerideComponent } from './snowboards/boards-freeride/boards-freeride.component';
+import { BoardsFreestyleComponent } from './snowboards/boards-freestyle/boards-freestyle.component';
+import { BoardsWomensComponent } from './snowboards/boards-womens/boards-womens.component';
+import { BoardsKidsComponent } from './snowboards/boards-kids/boards-kids.component';
 
 @NgModule({
   declarations: [
@@ -219,6 +224,11 @@ import { SnowboardsTeamTonyPavlantosComponent } from './snowboards/snowboards-te
     SnowboardsTeamTaylorPfaffComponent,
     SnowboardsTeamTomFloccoComponent,
     SnowboardsTeamTonyPavlantosComponent,
+    BoardsAllMountainComponent,
+    BoardsFreerideComponent,
+    BoardsFreestyleComponent,
+    BoardsWomensComponent,
+    BoardsKidsComponent,
   ],
   imports: [
     BrowserModule,

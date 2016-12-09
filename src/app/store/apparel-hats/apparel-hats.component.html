@@ -1,52 +1,34 @@
-<div class="apparel-header">
-	<h1 class="text-align-center">Hats</h1>
-		<ul id="categories">
-			<li><a [routerLink]="['/store//apparel/shirts']">Shirts</a></li>
-			<li><a [routerLink]="['/store//apparel/hoodies']">Hoodies</a></li>
-			<li><a [routerLink]="['/store//apparel/hats']">Hats</a></li>
-			<li><a [routerLink]="['/store//apparel/accessories']">Accessories</a></li>
-			<li><a [routerLink]="['/store//apparel/mens']">Mens</a></li>
-			<li><a [routerLink]="['/store//apparel/womens']">Womens</a></li>
-			<li><a [routerLink]="['/store//apparel/kids']">Kids</a></li>
-		</ul>
-</div>
-
-<div id="content">	
-
-	<!--<div class="top-parallax" style="background-image:url('../../assets/img/apparel/ApparelHero.jpg')"></div>-->
+<div id="content">
+	<div class="apparel-header">
+		<h1 class="text-align-center">Shirts</h1>
+			<ul id="categories">
+				<li><a [routerLink]="['/store//apparel/shirts']">Shirts</a></li>
+				<li><a [routerLink]="['/store//apparel/hoodies']">Hoodies</a></li>
+				<li><a [routerLink]="['/store//apparel/hats']">Hats</a></li>
+				<li><a [routerLink]="['/store//apparel/accessories']">Accessories</a></li>
+				<li><a [routerLink]="['/store//apparel/mens']">Mens</a></li>
+				<li><a [routerLink]="['/store//apparel/womens']">Womens</a></li>
+				<li><a [routerLink]="['/store//apparel/kids']">Kids</a></li>
+			</ul>
+	</div>
 	<div class="store-img">
 		<img src="../../assets/img/apparel/ApparelHero.jpg" alt="">
 	</div>
-
-	<div *ngFor="let hat of hats">
-    <p>{{hat.name}}</p>
-    <img src="{{hat.photo}}" alt="">
-  </div>
-</div>
-
-
-
-
-
-<!--<div id="content">
-	<div class="top-parallax" style="background-image:url('../../../assets/img/apparel/ApparelHero.jpg')"></div>
-
 	<div id="main">
-		<h1 class="title-has-line text-align-center">Apparel</h1>
-
-		<ul id="categories">
-			<li><a [routerLink]="['/apparel/shirts']">Shirts</a></li>
-			<li><a [routerLink]="['/apparel/hoodies']">Hoodies</a></li>
-			<li><a [routerLink]="['/apparel/hats']">Hats</a></li>
-			<li><a [routerLink]="['/apparel/accessories']">Accessories</a></li>
-			<li><a [routerLink]="['/apparel/mens']">Mens</a></li>
-		</ul>
-
-    <div *ngFor="let hat of hats">
-      <p>{{hat.name}}</p>
-      <img src="{{hat.photo}}" alt="">
-    </div>
-
+		<div class="container">
+			<div class="store-wrap" style="width: 1000px;">
+				<div *ngFor="let hat of hats" class="store-portfolio"> 	
+					<a href="http://neversummer-snow.shptron.com/c/accessories">
+						<div class="store-item"> 				
+							<img class="store-photo" src="{{hat.photo}}" alt="">
+							<div class="item-overlay">
+								<span class="item-title">{{hat.name}}</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<hr>
+		</div>
 	</div>
-
-</div>-->
+</div>

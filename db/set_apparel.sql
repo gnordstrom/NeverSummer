@@ -88,13 +88,13 @@ INSERT INTO hats (name, photo) VALUES
 ('Colorado Cropped Cap', '../../../assets/img/apparel/hats/HCOCrop-Action=thumbnail&Width=400.png'),
 ('Colorado Patch Cap', '../../../assets/img/apparel/hats/HCOPatch1-Action=thumbnail&Width=400.png'),
 ('Corporate Silicon Cap', '../../../assets/img/apparel/hats/HCobra2-Action=thumbnail&Width=400.png'),
-('NVR SMR Pom Beanie', '../../../assets/img/apparel/hats/BNVRSMRCuff-Action=thumbnail&Width=400.png'),
 ('NVR SMR Trucker', '../../../assets/img/apparel/hats/HBolts1-Action=thumbnail&Width=400.png'),
 ('Prospector Sublimation Trucker', '../../../assets/img/apparel/hats/HSublimation3-Action=thumbnail&Width=400.png'),
+('USA Patch Trucker', '../../../assets/img/apparel/hats/HUSA2-Action=thumbnail&Width=400.png'),
+('NVR SMR Pom Beanie', '../../../assets/img/apparel/hats/BNVRSMRCuff-Action=thumbnail&Width=400.png'),
 ('Shoreman Cuff Beanie', '../../../assets/img/apparel/hats/BCuff3-Action=thumbnail&Width=400.png'),
 ('Solid Beanie', '../../../assets/img/apparel/hats/BSolid2-Action=thumbnail&Width=400.png'),
-('USA Patch Beanie', '../../../assets/img/apparel/hats/BUSA-Action=thumbnail&Width=400.png'),
-('USA Patch Trucker', '../../../assets/img/apparel/hats/HUSA2-Action=thumbnail&Width=400.png');
+('USA Patch Beanie', '../../../assets/img/apparel/hats/BUSA-Action=thumbnail&Width=400.png');
 
 -- /*~~~~~~~~~~~~~~~~~~~*
 --     Accessories Table
