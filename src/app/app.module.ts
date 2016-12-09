@@ -111,6 +111,27 @@ import { SnowboardsTeamSeanFithianComponent } from './snowboards/snowboards-team
 import { SnowboardsTeamTaylorPfaffComponent } from './snowboards/snowboards-team/snowboards-team-taylor-pfaff/snowboards-team-taylor-pfaff.component';
 import { SnowboardsTeamTomFloccoComponent } from './snowboards/snowboards-team/snowboards-team-tom-flocco/snowboards-team-tom-flocco.component';
 import { SnowboardsTeamTonyPavlantosComponent } from './snowboards/snowboards-team/snowboards-team-tony-pavlantos/snowboards-team-tony-pavlantos.component';
+import { ApparelShirtsBoltsLongsleeveComponent } from './store/apparel-shirts/apparel-shirts-bolts-longsleeve/apparel-shirts-bolts-longsleeve.component';
+import { ApparelShirtsBoltsTeeComponent } from './store/apparel-shirts/apparel-shirts-bolts-tee/apparel-shirts-bolts-tee.component';
+import { ApparelShirtsBulletEagleRaglanComponent } from './store/apparel-shirts/apparel-shirts-bullet-eagle-raglan/apparel-shirts-bullet-eagle-raglan.component';
+import { ApparelShirtsBulletEagleTeeComponent } from './store/apparel-shirts/apparel-shirts-bullet-eagle-tee/apparel-shirts-bullet-eagle-tee.component';
+import { ApparelShirtsColoradoEagleLongsleeveComponent } from './store/apparel-shirts/apparel-shirts-colorado-eagle-longsleeve/apparel-shirts-colorado-eagle-longsleeve.component';
+import { ApparelShirtsColoradoEagleTeeComponent } from './store/apparel-shirts/apparel-shirts-colorado-eagle-tee/apparel-shirts-colorado-eagle-tee.component';
+import { ApparelShirtsEagleMountainFillTeeComponent } from './store/apparel-shirts/apparel-shirts-eagle-mountain-fill-tee/apparel-shirts-eagle-mountain-fill-tee.component';
+import { ApparelShirtsEagleTeeComponent } from './store/apparel-shirts/apparel-shirts-eagle-tee/apparel-shirts-eagle-tee.component';
+import { ApparelShirtsNvrSmrStormLongsleeveComponent } from './store/apparel-shirts/apparel-shirts-nvr-smr-storm-longsleeve/apparel-shirts-nvr-smr-storm-longsleeve.component';
+import { ApparelShirtsNvrSmrStormTeeComponent } from './store/apparel-shirts/apparel-shirts-nvr-smr-storm-tee/apparel-shirts-nvr-smr-storm-tee.component';
+import { ApparelShirtsPremiumArrowsTeeComponent } from './store/apparel-shirts/apparel-shirts-premium-arrows-tee/apparel-shirts-premium-arrows-tee.component';
+import { ApparelShirtsPremiumCorporateTeeComponent } from './store/apparel-shirts/apparel-shirts-premium-corporate-tee/apparel-shirts-premium-corporate-tee.component';
+import { ApparelShirtsRipsawRaglanTeeComponent } from './store/apparel-shirts/apparel-shirts-ripsaw-raglan-tee/apparel-shirts-ripsaw-raglan-tee.component';
+import { ApparelShirtsRipsawTeeComponent } from './store/apparel-shirts/apparel-shirts-ripsaw-tee/apparel-shirts-ripsaw-tee.component';
+import { ApparelShirtsUsaPocketTeeComponent } from './store/apparel-shirts/apparel-shirts-usa-pocket-tee/apparel-shirts-usa-pocket-tee.component';
+import { ApparelShirtsWomensArrowsLongsleeveComponent } from './store/apparel-shirts/apparel-shirts-womens-arrows-longsleeve/apparel-shirts-womens-arrows-longsleeve.component';
+import { ApparelShirtsWomensColoradoEagleTeeComponent } from './store/apparel-shirts/apparel-shirts-womens-colorado-eagle-tee/apparel-shirts-womens-colorado-eagle-tee.component';
+import { ApparelShirtsWomensScriptTeeComponent } from './store/apparel-shirts/apparel-shirts-womens-script-tee/apparel-shirts-womens-script-tee.component';
+import { ApparelShirtsWomensProtoRaglanComponent } from './store/apparel-shirts/apparel-shirts-womens-proto-raglan/apparel-shirts-womens-proto-raglan.component';
+import { ApparelShirtsBoysBulletEagleTeeComponent } from './store/apparel-shirts/apparel-shirts-boys-bullet-eagle-tee/apparel-shirts-boys-bullet-eagle-tee.component';
+import { ApparelShirtsBoysColoradoEagleTeeComponent } from './store/apparel-shirts/apparel-shirts-boys-colorado-eagle-tee/apparel-shirts-boys-colorado-eagle-tee.component';
 
 @NgModule({
   declarations: [
@@ -219,6 +240,27 @@ import { SnowboardsTeamTonyPavlantosComponent } from './snowboards/snowboards-te
     SnowboardsTeamTaylorPfaffComponent,
     SnowboardsTeamTomFloccoComponent,
     SnowboardsTeamTonyPavlantosComponent,
+    ApparelShirtsBoltsLongsleeveComponent,
+    ApparelShirtsBoltsTeeComponent,
+    ApparelShirtsBulletEagleRaglanComponent,
+    ApparelShirtsBulletEagleTeeComponent,
+    ApparelShirtsColoradoEagleLongsleeveComponent,
+    ApparelShirtsColoradoEagleTeeComponent,
+    ApparelShirtsEagleMountainFillTeeComponent,
+    ApparelShirtsEagleTeeComponent,
+    ApparelShirtsNvrSmrStormLongsleeveComponent,
+    ApparelShirtsNvrSmrStormTeeComponent,
+    ApparelShirtsPremiumArrowsTeeComponent,
+    ApparelShirtsPremiumCorporateTeeComponent,
+    ApparelShirtsRipsawRaglanTeeComponent,
+    ApparelShirtsRipsawTeeComponent,
+    ApparelShirtsUsaPocketTeeComponent,
+    ApparelShirtsWomensArrowsLongsleeveComponent,
+    ApparelShirtsWomensColoradoEagleTeeComponent,
+    ApparelShirtsWomensScriptTeeComponent,
+    ApparelShirtsWomensProtoRaglanComponent,
+    ApparelShirtsBoysBulletEagleTeeComponent,
+    ApparelShirtsBoysColoradoEagleTeeComponent,
   ],
   imports: [
     BrowserModule,
