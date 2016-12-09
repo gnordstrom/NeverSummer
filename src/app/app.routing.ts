@@ -1,3 +1,49 @@
+import { SnowboardsTeamTonyPavlantosComponent } from './snowboards/snowboards-team/snowboards-team-tony-pavlantos/snowboards-team-tony-pavlantos.component';
+import { SnowboardsTeamTomFloccoComponent } from './snowboards/snowboards-team/snowboards-team-tom-flocco/snowboards-team-tom-flocco.component';
+import { SnowboardsTeamTaylorPfaffComponent } from './snowboards/snowboards-team/snowboards-team-taylor-pfaff/snowboards-team-taylor-pfaff.component';
+import { SnowboardsTeamSeanFithianComponent } from './snowboards/snowboards-team/snowboards-team-sean-fithian/snowboards-team-sean-fithian.component';
+import { SnowboardsTeamRickRodriguezComponent } from './snowboards/snowboards-team/snowboards-team-rick-rodriguez/snowboards-team-rick-rodriguez.component';
+import { SnowboardsTeamRajatBhyaniComponent } from './snowboards/snowboards-team/snowboards-team-rajat-bhyani/snowboards-team-rajat-bhyani.component';
+import { SnowboardsTeamNickLarsonComponent } from './snowboards/snowboards-team/snowboards-team-nick-larson/snowboards-team-nick-larson.component';
+import { SnowboardsTeamNickDeciccoComponent } from './snowboards/snowboards-team/snowboards-team-nick-decicco/snowboards-team-nick-decicco.component';
+import { SnowboardsTeamNateSheehanComponent } from './snowboards/snowboards-team/snowboards-team-nate-sheehan/snowboards-team-nate-sheehan.component';
+import { SnowboardsTeamMikeyMarohnComponent } from './snowboards/snowboards-team/snowboards-team-mikey-marohn/snowboards-team-mikey-marohn.component';
+import { SnowboardsTeamMikeHoodComponent } from './snowboards/snowboards-team/snowboards-team-mike-hood/snowboards-team-mike-hood.component';
+import { SnowboardsTeamMaryBoddingtonComponent } from './snowboards/snowboards-team/snowboards-team-mary-boddington/snowboards-team-mary-boddington.component';
+import { SnowboardsTeamKevinBlueComponent } from './snowboards/snowboards-team/snowboards-team-kevin-blue/snowboards-team-kevin-blue.component';
+import { SnowboardsTeamJustinHeniginComponent } from './snowboards/snowboards-team/snowboards-team-justin-henigin/snowboards-team-justin-henigin.component';
+import { SnowboardsTeamJasonHindmanComponent } from './snowboards/snowboards-team/snowboards-team-jason-hindman/snowboards-team-jason-hindman.component';
+import { SnowboardsTeamJasonElmsComponent } from './snowboards/snowboards-team/snowboards-team-jason-elms/snowboards-team-jason-elms.component';
+import { SnowboardsTeamJakeWilliamsComponent } from './snowboards/snowboards-team/snowboards-team-jake-williams/snowboards-team-jake-williams.component';
+import { SnowboardsTeamJacobCareyComponent } from './snowboards/snowboards-team/snowboards-team-jacob-carey/snowboards-team-jacob-carey.component';
+import { SnowboardsTeamIanSmithComponent } from './snowboards/snowboards-team/snowboards-team-ian-smith/snowboards-team-ian-smith.component';
+import { SnowboardsTeamEveretteSimmonsComponent } from './snowboards/snowboards-team/snowboards-team-everette-simmons/snowboards-team-everette-simmons.component';
+import { SnowboardsTeamDevinWhiteleyComponent } from './snowboards/snowboards-team/snowboards-team-devin-whiteley/snowboards-team-devin-whiteley.component';
+import { SnowboardsTeamCooperSclarComponent } from './snowboards/snowboards-team/snowboards-team-cooper-sclar/snowboards-team-cooper-sclar.component';
+import { SnowboardsTeamChrisLynchComponent } from './snowboards/snowboards-team/snowboards-team-chris-lynch/snowboards-team-chris-lynch.component';
+import { SnowboardsTeamChrisGalvinComponent } from './snowboards/snowboards-team/snowboards-team-chris-galvin/snowboards-team-chris-galvin.component';
+import { SnowboardsTeamChrisCorningComponent } from './snowboards/snowboards-team/snowboards-team-chris-corning/snowboards-team-chris-corning.component';
+import { SnowboardsTeamChaseBlackwellComponent } from './snowboards/snowboards-team/snowboards-team-chase-blackwell/snowboards-team-chase-blackwell.component';
+import { SnowboardsTeamCharlieHochComponent } from './snowboards/snowboards-team/snowboards-team-charlie-hoch/snowboards-team-charlie-hoch.component';
+import { SnowboardsTeamCatherineEaglesComponent } from './snowboards/snowboards-team/snowboards-team-catherine-eagles/snowboards-team-catherine-eagles.component';
+import { SnowboardsTeamCaseyLucasComponent } from './snowboards/snowboards-team/snowboards-team-casey-lucas/snowboards-team-casey-lucas.component';
+import { SnowboardsTeamByronBagwellComponent } from './snowboards/snowboards-team/snowboards-team-byron-bagwell/snowboards-team-byron-bagwell.component';
+import { SnowboardsTeamBrockButterfieldComponent } from './snowboards/snowboards-team/snowboards-team-brock-butterfield/snowboards-team-brock-butterfield.component';
+import { SnowboardsTeamBradyFarrComponent } from './snowboards/snowboards-team/snowboards-team-brady-farr/snowboards-team-brady-farr.component';
+import { SnowboardsTeamBillRodriguezComponent } from './snowboards/snowboards-team/snowboards-team-bill-rodriguez/snowboards-team-bill-rodriguez.component';
+import { SnowboardsTeamAustinGibneyComponent } from './snowboards/snowboards-team/snowboards-team-austin-gibney/snowboards-team-austin-gibney.component';
+import { SnowboardsTeamAndrewBuerginComponent } from './snowboards/snowboards-team/snowboards-team-andrew-buergin/snowboards-team-andrew-buergin.component';
+import { LongboardsTeamZachBaileyComponent } from './longboards/longboards-team/longboards-team-zach-bailey/longboards-team-zach-bailey.component';
+import { LongboardsTeamTyeDonnellyComponent } from './longboards/longboards-team/longboards-team-tye-donnelly/longboards-team-tye-donnelly.component';
+import { LongboardsTeamLyleHansbergerComponent } from './longboards/longboards-team/longboards-team-lyle-hansberger/longboards-team-lyle-hansberger.component';
+import { LongboardsTeamDaveMortonComponent } from './longboards/longboards-team/longboards-team-dave-morton/longboards-team-dave-morton.component';
+import { LongboardsTeamAlecOlguinComponent } from './longboards/longboards-team/longboards-team-alec-olguin/longboards-team-alec-olguin.component';
+import { Ns25GreyComponent } from './store/special-edition/ns25-grey/ns25-grey.component';
+import { Ns25GloveComponent } from './store/special-edition/ns25-glove/ns25-glove.component';
+import { Ns25MittComponent } from './store/special-edition/ns25-mitt/ns25-mitt.component';
+import { Ns25KnifeComponent } from './store/special-edition/ns25-knife/ns25-knife.component';
+import { Ns25CamoflaugeComponent } from './store/special-edition/ns25-camoflauge/ns25-camoflauge.component';
+import { SpecialEditionComponent } from './store/special-edition/special-edition.component';
 import { SnowboardsBoardWestSplitComponent } from './snowboards/snowboards-board-west-split/snowboards-board-west-split.component';
 import { SnowboardsBoardWestComponent } from './snowboards/snowboards-board-west/snowboards-board-west.component';
 import { SnowboardsBoardWarlockComponent } from './snowboards/snowboards-board-warlock/snowboards-board-warlock.component';
@@ -29,18 +75,18 @@ import { LongboardsBoardSuperfreakComponent } from './longboards/longboards-boar
 import { LongboardsBoardWingmanComponent } from './longboards/longboards-board-wingman/longboards-board-wingman.component';
 import { LongboardsBoardClutchComponent } from './longboards/longboards-board-clutch/longboards-board-clutch.component';
 import { LongboardsBoardAvalancheComponent } from './longboards/longboards-board-avalanche/longboards-board-avalanche.component';
-import { ApparelKidsComponent } from './apparel/apparel-kids/apparel-kids.component';
-import { ApparelWomensComponent } from './apparel/apparel-womens/apparel-womens.component';
-import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.component';
-import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/apparel-accessories.component';
-import { ApparelHatsComponent } from './apparel/apparel-hats/apparel-hats.component';
-import { ApparelHoodiesComponent } from './apparel/apparel-hoodies/apparel-hoodies.component';
-import { ApparelShirtsComponent } from './apparel/apparel-shirts/apparel-shirts.component';
+import { ApparelKidsComponent } from './store/apparel-kids/apparel-kids.component';
+import { ApparelWomensComponent } from './store/apparel-womens/apparel-womens.component';
+import { ApparelMensComponent } from './store/apparel-mens/apparel-mens.component';
+import { ApparelAccessoriesComponent } from './store/apparel-accessories/apparel-accessories.component';
+import { ApparelHatsComponent } from './store/apparel-hats/apparel-hats.component';
+import { ApparelHoodiesComponent } from './store/apparel-hoodies/apparel-hoodies.component';
+import { ApparelShirtsComponent } from './store/apparel-shirts/apparel-shirts.component';
 // FOR ROUTING, check Section 22 video 237, 238 how to setup child routes and lazy loading
 
 import { RouterModule, Routes } from '@angular/router';
 
-import { ApparelComponent } from './apparel/apparel.component';
+import { ApparelComponent } from './store/apparel.component';
 import { CompanyComponent } from './company/company.component';
 import { CompanyCalendarComponent } from './company/company-calendar/company-calendar.component';
 import { CompanyContactComponent } from './company/company-contact/company-contact.component';
@@ -61,14 +107,6 @@ import { SnowboardsTeamComponent } from './snowboards/snowboards-team/snowboards
 
 const APP_ROUTES: Routes = [
     { path: '', component: HomeComponent },
-    { path: 'apparel', component: ApparelComponent },
-    { path: 'apparel/shirts', component: ApparelShirtsComponent },
-    { path: 'apparel/hoodies', component: ApparelHoodiesComponent },
-    { path: 'apparel/hats', component: ApparelHatsComponent },
-    { path: 'apparel/accessories', component: ApparelAccessoriesComponent },
-    { path: 'apparel/mens', component: ApparelMensComponent },
-    { path: 'apparel/womens', component: ApparelWomensComponent },
-    { path: 'apparel/kids', component: ApparelKidsComponent },
     { path: 'company', component: CompanyComponent },
     { path: 'company/calendar', component: CompanyCalendarComponent },
     { path: 'company/contact', component: CompanyContactComponent },
@@ -91,6 +129,11 @@ const APP_ROUTES: Routes = [
     { path: 'longboards/videos', component: LongboardsVideosComponent },
     { path: 'longboards/tech', component: LongboardsTechComponent },
     { path: 'longboards/team', component: LongboardsTeamComponent },
+    { path: 'longboards/team/alec-olguin', component: LongboardsTeamAlecOlguinComponent },
+    { path: 'longboards/team/dave-morton', component: LongboardsTeamDaveMortonComponent },
+    { path: 'longboards/team/lyle-hansberger', component: LongboardsTeamLyleHansbergerComponent },
+    { path: 'longboards/team/tye-donnelly', component: LongboardsTeamTyeDonnellyComponent },
+    { path: 'longboards/team/zach-bailey', component: LongboardsTeamZachBaileyComponent },
     { path: 'snowboards', component: SnowboardsComponent },
     { path: 'snowboards/board/aura', component: SnowboardsBoardAuraComponent },
     { path: 'snowboards/board/aura-split', component: SnowboardsBoardAuraSplitComponent },
@@ -116,6 +159,55 @@ const APP_ROUTES: Routes = [
     { path: 'snowboards/videos', component: SnowboardsVideosComponent },
     { path: 'snowboards/tech', component: SnowboardsTechComponent },
     { path: 'snowboards/team', component: SnowboardsTeamComponent },
+    { path: 'snowboards/team/andrew-buergin', component: SnowboardsTeamAndrewBuerginComponent },
+    { path: 'snowboards/team/austin-gibney', component: SnowboardsTeamAustinGibneyComponent },
+    { path: 'snowboards/team/bill-rodriguez', component: SnowboardsTeamBillRodriguezComponent },
+    { path: 'snowboards/team/brady-farr', component: SnowboardsTeamBradyFarrComponent },
+    { path: 'snowboards/team/brock-butterfield', component: SnowboardsTeamBrockButterfieldComponent },
+    { path: 'snowboards/team/byron-bagwell', component: SnowboardsTeamByronBagwellComponent },
+    { path: 'snowboards/team/casey-lucas', component: SnowboardsTeamCaseyLucasComponent },
+    { path: 'snowboards/team/catherine-eagles', component: SnowboardsTeamCatherineEaglesComponent },
+    { path: 'snowboards/team/charlie-hoch', component: SnowboardsTeamCharlieHochComponent },
+    { path: 'snowboards/team/chase-blackwell', component: SnowboardsTeamChaseBlackwellComponent },
+    { path: 'snowboards/team/chris-corning', component: SnowboardsTeamChrisCorningComponent },
+    { path: 'snowboards/team/chris-galvin', component: SnowboardsTeamChrisGalvinComponent },
+    { path: 'snowboards/team/chris-lynch', component: SnowboardsTeamChrisLynchComponent },
+    { path: 'snowboards/team/cooper-sclar', component: SnowboardsTeamCooperSclarComponent },
+    { path: 'snowboards/team/devin-whiteley', component: SnowboardsTeamDevinWhiteleyComponent },
+    { path: 'snowboards/team/everette-simmons', component: SnowboardsTeamEveretteSimmonsComponent },
+    { path: 'snowboards/team/ian-smith', component: SnowboardsTeamIanSmithComponent },
+    { path: 'snowboards/team/jacob-carey', component: SnowboardsTeamJacobCareyComponent },
+    { path: 'snowboards/team/jake-williams', component: SnowboardsTeamJakeWilliamsComponent },
+    { path: 'snowboards/team/jason-elms', component: SnowboardsTeamJasonElmsComponent },
+    { path: 'snowboards/team/jason-hindman', component: SnowboardsTeamJasonHindmanComponent },
+    { path: 'snowboards/team/justin-henigin', component: SnowboardsTeamJustinHeniginComponent },
+    { path: 'snowboards/team/kevin-blue', component: SnowboardsTeamKevinBlueComponent },
+    { path: 'snowboards/team/mary-boddington', component: SnowboardsTeamMaryBoddingtonComponent },
+    { path: 'snowboards/team/mike-hood', component: SnowboardsTeamMikeHoodComponent },
+    { path: 'snowboards/team/mikey-marohn', component: SnowboardsTeamMikeyMarohnComponent },
+    { path: 'snowboards/team/nate-sheehan', component: SnowboardsTeamNateSheehanComponent },
+    { path: 'snowboards/team/nick-decicco', component: SnowboardsTeamNickDeciccoComponent },
+    { path: 'snowboards/team/nick-larson', component: SnowboardsTeamNickLarsonComponent },
+    { path: 'snowboards/team/rajat-bhyani', component: SnowboardsTeamRajatBhyaniComponent },
+    { path: 'snowboards/team/rick-rodriguez', component: SnowboardsTeamRickRodriguezComponent },
+    { path: 'snowboards/team/sean-fithian', component: SnowboardsTeamSeanFithianComponent },
+    { path: 'snowboards/team/taylor-pfaff', component: SnowboardsTeamTaylorPfaffComponent },
+    { path: 'snowboards/team/tom-flocco', component: SnowboardsTeamTomFloccoComponent },
+    { path: 'snowboards/team/tony-pavlantos', component: SnowboardsTeamTonyPavlantosComponent },
+    { path: 'store/apparel', component: ApparelComponent },
+    { path: 'store/apparel/shirts', component: ApparelShirtsComponent },
+    { path: 'store/apparel/hoodies', component: ApparelHoodiesComponent },
+    { path: 'store/apparel/hats', component: ApparelHatsComponent },
+    { path: 'store/apparel/accessories', component: ApparelAccessoriesComponent },
+    { path: 'store/apparel/mens', component: ApparelMensComponent },
+    { path: 'store/apparel/womens', component: ApparelWomensComponent },
+    { path: 'store/apparel/kids', component: ApparelKidsComponent },
+    { path: 'store/special-edition', component: SpecialEditionComponent },
+    { path: 'store/special-edition/camoflauge', component: Ns25CamoflaugeComponent },
+    { path: 'store/special-edition/grey', component: Ns25GreyComponent },
+    { path: 'store/special-edition/gloves', component: Ns25GloveComponent },
+    { path: 'store/special-edition/mitts', component: Ns25MittComponent },
+    { path: 'store/special-edition/knifes', component: Ns25KnifeComponent },
     // { path: '//', loadChildren: './users/user.module#UserModule'}
 ];
 

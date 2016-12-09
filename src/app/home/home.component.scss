@@ -1,11 +1,90 @@
 .top-parallax {
-    height: 700px;
+    height: 775px;
     top: 120px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
+/* Video Hover Play Image */	
+.cntVid, figure.vimeo, figure.youtube {
+    margin:0;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+.cntVid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+figure.youtube a img, figure.vimeo a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: 100%;
+    max-width:none;
+}
+figure.vimeo a:after, figure.youtube a:after {
+    content:"";
+    width:60px;
+    height:60px;
+    background:#fff;
+    z-index:9;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin:-30px 0 0 -30px;
+    border:3px solid #fff;
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.01);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.01);
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.01);
+}
+figure.vimeo a:before, figure.youtube a:before {
+    content:"";
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 8px solid #000;
+    z-index:10;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:0px;
+    margin-top:-4px;
+    display:block;
+}
+figure.vimeo a:hover img, figure.youtube a:hover img {
+    -webkit-transition: all 0.6s;
+    transition: all 0.6s;
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+figure.vimeo a img, figure.youtube a img {
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+section.video-none { display:none; }
+section.video-vimeo { display:block; }
+section.video-youtube { display:block; }
+figure.vimeo-vimeo { display:block; }
+figure.vimeo-youtube { display:none; }
+figure.youtube-vimeo { display:none; }
+figure.youtube-youtube { display:block; }
+figure.youtube-none { display:none; }
+figure.vimeo-none { display:none; }
+
+
 
 /*--------------------------------------------------
 	06. Content Styles
@@ -533,4 +612,17 @@ section .overlay {
 	-o-transition: all 0.2s ease-in-out 0.9s;
 	-ms-transition: all 0.2s ease-in-out 0.9s;
 	transition: all 0.2s ease-in-out 0.9s;
+}
+
+
+
+@media only screen and (max-width: 2000px) {
+.top-parallax {
+	height: 980px;
+	}
+}
+@media only screen and (max-width: 1466px) {
+	.top-parallax {
+		height: 775px;
+	}
 }

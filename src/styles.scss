@@ -721,8 +721,17 @@
 /*--------------------------------------------------
 	16. Responsive
 ---------------------------------------------------*/			
-			
+@media only screen and (max-width: 2000px) {
+.top-parallax {
+	height: 980px;
+	}
+}
+
+
 @media only screen and (max-width: 1466px) {
+	.top-parallax {
+		height: 775px;
+	}
 	.container {
 		width:940px;
 	}
