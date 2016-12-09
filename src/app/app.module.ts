@@ -10,7 +10,7 @@ import { HeaderComponent } from './header.component';
 import { HomeComponent } from './home/home.component';
 import { SnowboardsComponent } from './snowboards/snowboards.component';
 import { LongboardsComponent } from './longboards/longboards.component';
-import { ApparelComponent } from './apparel/apparel.component';
+import { ApparelComponent } from './store/apparel.component';
 import { CompanyComponent } from './company/company.component';
 import { SnowboardsVideosComponent } from './snowboards/snowboards-videos/snowboards-videos.component';
 import { SnowboardsTechComponent } from './snowboards/snowboards-tech/snowboards-tech.component';
@@ -25,15 +25,15 @@ import { CompanyNewsComponent } from './company/company-news/company-news.compon
 import { CompanyDealersComponent } from './company/company-dealers/company-dealers.component';
 import { CompanyInternationalDealersComponent } from './company/company-international-dealers/company-international-dealers.component';
 import { CompanyCalendarComponent } from './company/company-calendar/company-calendar.component';
-import { ApparelShirtsComponent } from './apparel/apparel-shirts/apparel-shirts.component';
+import { ApparelShirtsComponent } from './store/apparel-shirts/apparel-shirts.component';
 
-import { HttpService } from './apparel/http.service';
-import { ApparelHoodiesComponent } from './apparel/apparel-hoodies/apparel-hoodies.component';
-import { ApparelHatsComponent } from './apparel/apparel-hats/apparel-hats.component';
-import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/apparel-accessories.component';
-import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.component';
-import { ApparelWomensComponent } from './apparel/apparel-womens/apparel-womens.component';
-import { ApparelKidsComponent } from './apparel/apparel-kids/apparel-kids.component';
+import { HttpService } from './store/http.service';
+import { ApparelHoodiesComponent } from './store/apparel-hoodies/apparel-hoodies.component';
+import { ApparelHatsComponent } from './store/apparel-hats/apparel-hats.component';
+import { ApparelAccessoriesComponent } from './store/apparel-accessories/apparel-accessories.component';
+import { ApparelMensComponent } from './store/apparel-mens/apparel-mens.component';
+import { ApparelWomensComponent } from './store/apparel-womens/apparel-womens.component';
+import { ApparelKidsComponent } from './store/apparel-kids/apparel-kids.component';
 import { LongboardsBoardAvalancheComponent } from './longboards/longboards-board-avalanche/longboards-board-avalanche.component';
 import { LongboardsBoardClutchComponent } from './longboards/longboards-board-clutch/longboards-board-clutch.component';
 import { LongboardsBoardCovertComponent } from './longboards/longboards-board-covert/longboards-board-covert.component';
@@ -65,6 +65,7 @@ import { SnowboardsBoardWarlockComponent } from './snowboards/snowboards-board-w
 import { SnowboardsBoardWestComponent } from './snowboards/snowboards-board-west/snowboards-board-west.component';
 import { SnowboardsBoardWestSplitComponent } from './snowboards/snowboards-board-west-split/snowboards-board-west-split.component';
 import { SnowboardsBoardProtoTypeTwoWomensComponent } from './snowboards/snowboards-board-proto-type-two-womens/snowboards-board-proto-type-two-womens.component';
+import { SpecialEditionComponent } from './store/special-edition/special-edition.component';
 
 @NgModule({
   declarations: [
@@ -127,6 +128,7 @@ import { SnowboardsBoardProtoTypeTwoWomensComponent } from './snowboards/snowboa
     SnowboardsBoardWestComponent,
     SnowboardsBoardWestSplitComponent,
     SnowboardsBoardProtoTypeTwoWomensComponent,
+    SpecialEditionComponent,
   ],
   imports: [
     BrowserModule,

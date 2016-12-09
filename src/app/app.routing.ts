@@ -1,3 +1,4 @@
+import { SpecialEditionComponent } from './store/special-edition/special-edition.component';
 import { SnowboardsBoardWestSplitComponent } from './snowboards/snowboards-board-west-split/snowboards-board-west-split.component';
 import { SnowboardsBoardWestComponent } from './snowboards/snowboards-board-west/snowboards-board-west.component';
 import { SnowboardsBoardWarlockComponent } from './snowboards/snowboards-board-warlock/snowboards-board-warlock.component';
@@ -29,18 +30,18 @@ import { LongboardsBoardSuperfreakComponent } from './longboards/longboards-boar
 import { LongboardsBoardWingmanComponent } from './longboards/longboards-board-wingman/longboards-board-wingman.component';
 import { LongboardsBoardClutchComponent } from './longboards/longboards-board-clutch/longboards-board-clutch.component';
 import { LongboardsBoardAvalancheComponent } from './longboards/longboards-board-avalanche/longboards-board-avalanche.component';
-import { ApparelKidsComponent } from './apparel/apparel-kids/apparel-kids.component';
-import { ApparelWomensComponent } from './apparel/apparel-womens/apparel-womens.component';
-import { ApparelMensComponent } from './apparel/apparel-mens/apparel-mens.component';
-import { ApparelAccessoriesComponent } from './apparel/apparel-accessories/apparel-accessories.component';
-import { ApparelHatsComponent } from './apparel/apparel-hats/apparel-hats.component';
-import { ApparelHoodiesComponent } from './apparel/apparel-hoodies/apparel-hoodies.component';
-import { ApparelShirtsComponent } from './apparel/apparel-shirts/apparel-shirts.component';
+import { ApparelKidsComponent } from './store/apparel-kids/apparel-kids.component';
+import { ApparelWomensComponent } from './store/apparel-womens/apparel-womens.component';
+import { ApparelMensComponent } from './store/apparel-mens/apparel-mens.component';
+import { ApparelAccessoriesComponent } from './store/apparel-accessories/apparel-accessories.component';
+import { ApparelHatsComponent } from './store/apparel-hats/apparel-hats.component';
+import { ApparelHoodiesComponent } from './store/apparel-hoodies/apparel-hoodies.component';
+import { ApparelShirtsComponent } from './store/apparel-shirts/apparel-shirts.component';
 // FOR ROUTING, check Section 22 video 237, 238 how to setup child routes and lazy loading
 
 import { RouterModule, Routes } from '@angular/router';
 
-import { ApparelComponent } from './apparel/apparel.component';
+import { ApparelComponent } from './store/apparel.component';
 import { CompanyComponent } from './company/company.component';
 import { CompanyCalendarComponent } from './company/company-calendar/company-calendar.component';
 import { CompanyContactComponent } from './company/company-contact/company-contact.component';
@@ -61,14 +62,6 @@ import { SnowboardsTeamComponent } from './snowboards/snowboards-team/snowboards
 
 const APP_ROUTES: Routes = [
     { path: '', component: HomeComponent },
-    { path: 'apparel', component: ApparelComponent },
-    { path: 'apparel/shirts', component: ApparelShirtsComponent },
-    { path: 'apparel/hoodies', component: ApparelHoodiesComponent },
-    { path: 'apparel/hats', component: ApparelHatsComponent },
-    { path: 'apparel/accessories', component: ApparelAccessoriesComponent },
-    { path: 'apparel/mens', component: ApparelMensComponent },
-    { path: 'apparel/womens', component: ApparelWomensComponent },
-    { path: 'apparel/kids', component: ApparelKidsComponent },
     { path: 'company', component: CompanyComponent },
     { path: 'company/calendar', component: CompanyCalendarComponent },
     { path: 'company/contact', component: CompanyContactComponent },
@@ -116,6 +109,15 @@ const APP_ROUTES: Routes = [
     { path: 'snowboards/videos', component: SnowboardsVideosComponent },
     { path: 'snowboards/tech', component: SnowboardsTechComponent },
     { path: 'snowboards/team', component: SnowboardsTeamComponent },
+    { path: 'store/apparel', component: ApparelComponent },
+    { path: 'store/apparel/shirts', component: ApparelShirtsComponent },
+    { path: 'store/apparel/hoodies', component: ApparelHoodiesComponent },
+    { path: 'store/apparel/hats', component: ApparelHatsComponent },
+    { path: 'store/apparel/accessories', component: ApparelAccessoriesComponent },
+    { path: 'store/apparel/mens', component: ApparelMensComponent },
+    { path: 'store/apparel/womens', component: ApparelWomensComponent },
+    { path: 'store/apparel/kids', component: ApparelKidsComponent },
+    { path: 'store/special-edition', component: SpecialEditionComponent },
     // { path: '//', loadChildren: './users/user.module#UserModule'}
 ];
 

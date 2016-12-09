@@ -1,13 +1,13 @@
 <div class="apparel-header">
-	<h1 class="text-align-center">Accessories</h1>
+	<h1 class="text-align-center">Hoodies</h1>
 		<ul id="categories">
-			<li><a [routerLink]="['/apparel/shirts']">Shirts</a></li>
-			<li><a [routerLink]="['/apparel/hoodies']">Hoodies</a></li>
-			<li><a [routerLink]="['/apparel/hats']">Hats</a></li>
-			<li><a [routerLink]="['/apparel/accessories']">Accessories</a></li>
-			<li><a [routerLink]="['/apparel/mens']">Mens</a></li>
-			<li><a [routerLink]="['/apparel/womens']">Womens</a></li>
-			<li><a [routerLink]="['/apparel/kids']">Kids</a></li>
+			<li><a [routerLink]="['/store//apparel/shirts']">Shirts</a></li>
+			<li><a [routerLink]="['/store//apparel/hoodies']">Hoodies</a></li>
+			<li><a [routerLink]="['/store//apparel/hats']">Hats</a></li>
+			<li><a [routerLink]="['/store//apparel/accessories']">Accessories</a></li>
+			<li><a [routerLink]="['/store//apparel/mens']">Mens</a></li>
+			<li><a [routerLink]="['/store//apparel/womens']">Womens</a></li>
+			<li><a [routerLink]="['/store//apparel/kids']">Kids</a></li>
 		</ul>
 </div>
 
@@ -18,11 +18,14 @@
 		<img src="../../assets/img/apparel/ApparelHero.jpg" alt="">
 	</div>
 
-	<div *ngFor="let accessory of accessories">
-    <p>{{accessory.name}}</p>
-    <img src="{{accessory.photo}}" alt="">
-  </div>
+	<div *ngFor="let hoodie of hoodies">
+		<p>{{hoodie.name}}</p>
+		<img src="{{hoodie.photo}}" alt="">
+	</div>
 </div>
+
+
+
 
 <!--<div id="content">
 	<div class="top-parallax" style="background-image:url('../../../assets/img/apparel/ApparelHero.jpg')"></div>
@@ -38,11 +41,14 @@
 			<li><a [routerLink]="['/apparel/mens']">Mens</a></li>
 		</ul>
 
-    <div *ngFor="let accessory of accessories">
-      <p>{{accessory.name}}</p>
-      <img src="{{accessory.photo}}" alt="">
-    </div>
+		<div class="store-img">
+			<img src="../../../assets/img/apparel/ApparelHero.jpg" alt="">
+		</div>
 
+    <div *ngFor="let hoodie of hoodies">
+      <p>{{hoodie.name}}</p>
+      <img src="{{hoodie.photo}}" alt="">
+    </div>
 	</div>
 
 </div>-->
