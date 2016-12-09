@@ -67,6 +67,10 @@ import { SnowboardsBoardWestSplitComponent } from './snowboards/snowboards-board
 import { SnowboardsBoardProtoTypeTwoWomensComponent } from './snowboards/snowboards-board-proto-type-two-womens/snowboards-board-proto-type-two-womens.component';
 import { SpecialEditionComponent } from './store/special-edition/special-edition.component';
 import { Ns25CamoflaugeComponent } from './store/special-edition/ns25-camoflauge/ns25-camoflauge.component';
+import { Ns25GreyComponent } from './store/special-edition/ns25-grey/ns25-grey.component';
+import { Ns25GloveComponent } from './store/special-edition/ns25-glove/ns25-glove.component';
+import { Ns25MittComponent } from './store/special-edition/ns25-mitt/ns25-mitt.component';
+import { Ns25KnifeComponent } from './store/special-edition/ns25-knife/ns25-knife.component';
 
 @NgModule({
   declarations: [
@@ -131,6 +135,10 @@ import { Ns25CamoflaugeComponent } from './store/special-edition/ns25-camoflauge
     SnowboardsBoardProtoTypeTwoWomensComponent,
     SpecialEditionComponent,
     Ns25CamoflaugeComponent,
+    Ns25GreyComponent,
+    Ns25GloveComponent,
+    Ns25MittComponent,
+    Ns25KnifeComponent,
   ],
   imports: [
     BrowserModule,
