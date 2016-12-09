@@ -1,3 +1,8 @@
+import { BoardsFreestyleComponent } from './snowboards/boards-freestyle/boards-freestyle.component';
+import { BoardsWomensComponent } from './snowboards/boards-womens/boards-womens.component';
+import { BoardsKidsComponent } from './snowboards/boards-kids/boards-kids.component';
+import { BoardsFreerideComponent } from './snowboards/boards-freeride/boards-freeride.component';
+import { BoardsAllMountainComponent } from './snowboards/boards-all-mountain/boards-all-mountain.component';
 import { SnowboardsTeamTonyPavlantosComponent } from './snowboards/snowboards-team/snowboards-team-tony-pavlantos/snowboards-team-tony-pavlantos.component';
 import { SnowboardsTeamTomFloccoComponent } from './snowboards/snowboards-team/snowboards-team-tom-flocco/snowboards-team-tom-flocco.component';
 import { SnowboardsTeamTaylorPfaffComponent } from './snowboards/snowboards-team/snowboards-team-taylor-pfaff/snowboards-team-taylor-pfaff.component';
@@ -135,6 +140,11 @@ const APP_ROUTES: Routes = [
     { path: 'longboards/team/tye-donnelly', component: LongboardsTeamTyeDonnellyComponent },
     { path: 'longboards/team/zach-bailey', component: LongboardsTeamZachBaileyComponent },
     { path: 'snowboards', component: SnowboardsComponent },
+    { path: 'snowboards/all-mountain', component: BoardsAllMountainComponent },
+    { path: 'snowboards/freeride', component: BoardsFreerideComponent },
+    { path: 'snowboards/freestyle', component: BoardsFreestyleComponent },
+    { path: 'snowboards/womens', component: BoardsWomensComponent },
+    { path: 'snowboards/kids', component: BoardsKidsComponent },
     { path: 'snowboards/board/aura', component: SnowboardsBoardAuraComponent },
     { path: 'snowboards/board/aura-split', component: SnowboardsBoardAuraSplitComponent },
     { path: 'snowboards/board/bantam', component: SnowboardsBoardBantamComponent },
