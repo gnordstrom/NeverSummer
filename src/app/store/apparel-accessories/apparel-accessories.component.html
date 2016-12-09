@@ -11,27 +11,24 @@
 				<li><a [routerLink]="['/store//apparel/kids']">Kids</a></li>
 			</ul>
 	</div>
-
 	<div class="store-img">
 		<img src="../../assets/img/apparel/ApparelHero.jpg" alt="">
 	</div>
-
 	<div id="main">
 		<div class="container">
-
 			<div class="store-wrap" style="width: 1000px;">
-				<div *ngFor="let accessory of accessories" class="store-portfolio"> 		<!-- item -->
-					<a href="#"><div class="store-item"> 									<!-- item-content -->
-						<img class="store-photo" src="{{accessory.photo}}" alt="">
-						<div class="item-overlay">
-							<span class="item-title">{{accessory.name}}</span>
+				<div *ngFor="let accessory of accessories" class="store-portfolio"> 		
+					<a href="#">
+						<div class="store-item"> 							
+							<img class="store-photo" src="{{accessory.photo}}" alt="">
+							<div class="item-overlay">
+								<span class="item-title">{{accessory.name}}</span>
+							</div>
 						</div>
-					</div></a>
+					</a>
 				</div>
 			</div>
-
 			<hr>
 		</div>
-		
 	</div>
 </div>
