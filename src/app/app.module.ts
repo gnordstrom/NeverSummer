@@ -66,6 +66,7 @@ import { SnowboardsBoardWestComponent } from './snowboards/snowboards-board-west
 import { SnowboardsBoardWestSplitComponent } from './snowboards/snowboards-board-west-split/snowboards-board-west-split.component';
 import { SnowboardsBoardProtoTypeTwoWomensComponent } from './snowboards/snowboards-board-proto-type-two-womens/snowboards-board-proto-type-two-womens.component';
 import { SpecialEditionComponent } from './store/special-edition/special-edition.component';
+import { Ns25CamoflaugeComponent } from './store/special-edition/ns25-camoflauge/ns25-camoflauge.component';
 
 @NgModule({
   declarations: [
@@ -129,6 +130,7 @@ import { SpecialEditionComponent } from './store/special-edition/special-edition
     SnowboardsBoardWestSplitComponent,
     SnowboardsBoardProtoTypeTwoWomensComponent,
     SpecialEditionComponent,
+    Ns25CamoflaugeComponent,
   ],
   imports: [
     BrowserModule,

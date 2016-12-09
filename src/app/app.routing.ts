@@ -1,3 +1,4 @@
+import { Ns25CamoflaugeComponent } from './store/special-edition/ns25-camoflauge/ns25-camoflauge.component';
 import { SpecialEditionComponent } from './store/special-edition/special-edition.component';
 import { SnowboardsBoardWestSplitComponent } from './snowboards/snowboards-board-west-split/snowboards-board-west-split.component';
 import { SnowboardsBoardWestComponent } from './snowboards/snowboards-board-west/snowboards-board-west.component';
@@ -118,6 +119,7 @@ const APP_ROUTES: Routes = [
     { path: 'store/apparel/womens', component: ApparelWomensComponent },
     { path: 'store/apparel/kids', component: ApparelKidsComponent },
     { path: 'store/special-edition', component: SpecialEditionComponent },
+    { path: 'store/special-edition/camoflauge', component: Ns25CamoflaugeComponent },
     // { path: '//', loadChildren: './users/user.module#UserModule'}
 ];
 
