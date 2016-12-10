@@ -1,3 +1,4 @@
+import { NeversummerPage } from './../../../e2e/app.po';
 import { Injectable } from '@angular/core';
 import { Http } from '@angular/http';
 import 'rxjs/Rx';
@@ -9,45 +10,31 @@ export class HttpService {
   constructor(private http: Http) { }
 
   getShirts() {
-    return this.http.get('http://localhost:8080/apparel/items/shirts')
+    return this.http.get('http://NeversummerPage.us/apparel/items/shirts')
       .map(res => res.json());
   }
   getHoodies() {
-    return this.http.get('http://localhost:8080/apparel/items/hoodies')
+    return this.http.get('http://NeversummerPage.us/apparel/items/hoodies')
       .map(res => res.json());
   }
   getHats() {
-    return this.http.get('http://localhost:8080/apparel/items/hats')
+    return this.http.get('http://NeversummerPage.us/apparel/items/hats')
       .map(res => res.json());
   }
   getAccessories() {
-    return this.http.get('http://localhost:8080/apparel/items/accessories')
+    return this.http.get('http://NeversummerPage.us/apparel/items/accessories')
       .map(res => res.json());
   }
   getMens() {
-    return this.http.get('http://localhost:8080/apparel/items/mens')
+    return this.http.get('http://NeversummerPage.us/apparel/items/mens')
       .map(res => res.json());
   }
   getWomens() {
-    return this.http.get('http://localhost:8080/apparel/items/womens')
+    return this.http.get('http://NeversummerPage.us/apparel/items/womens')
       .map(res => res.json());
   }
   getKids() {
-    return this.http.get('http://localhost:8080/apparel/items/kids')
+    return this.http.get('http://NeversummerPage.us/apparel/items/kids')
       .map(res => res.json());
   }
-
-//   getWomens() {
-//     return this.http.get('https://spacex-d2f2d.firebaseio.com/womens.json')
-//       .map(res => res.json());
-//   }
-//   getKids() {
-//     return this.http.get('https://spacex-d2f2d.firebaseio.com/kids.json')
-//       .map(res => res.json());
-//   }
-//   getAccessories() {
-//     return this.http.get('https://spacex-d2f2d.firebaseio.com/accessories.json')
-//       .map(res => res.json());
-//   }
-
 }
