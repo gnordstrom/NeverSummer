@@ -749,6 +749,7 @@
 }
 
 
+
 /*--------------------------------------------------
 	16. Responsive
 ---------------------------------------------------*/			
@@ -823,6 +824,9 @@
 	}
 	.menu-copyright {
 		display:none;
+	}
+	.top-parallax {
+		width: 100%;
 	}
 	#hero img {
 		width:100%;
@@ -979,6 +983,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+	.top-parallax {
+		width: 100%;
+	}
 	.container {
 		width:400px;
 	}
@@ -1038,6 +1045,13 @@
 }
 
 @media only screen and (max-width: 479px) {
+	.top-parallax {
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 	.container {
 		width:240px;
 	}
