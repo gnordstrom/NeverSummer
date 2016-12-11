@@ -269,7 +269,7 @@ header {
 }
 
 
-.dropdown:hover .submenu, dropdown:focus .submenu {
+.dropdown:hover .submenu, .dropdown:focus .submenu {
 	max-height:500px;
 	transition:all 1.2s ease-in-out 0.1s;
 	-moz-transition:all 1.2s ease-in-out 0.1s;
